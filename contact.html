@@ -6,17 +6,17 @@
   <title>Contact — Parker Renovations</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body data-page="contact">
   <header>
     <div class="wrap">
-      <button type="button" class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="side-nav">
+      <button type="button" class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="side-nav" data-i18n-attr="aria-label:aria.openMenu">
         <span class="burger-line"></span>
         <span class="burger-line"></span>
         <span class="burger-line"></span>
       </button>
       <a class="logo" href="index.html">
         Parker Renovations
-        <span>Kitchens · Baths · Whole-home remodels</span>
+        <span data-i18n="logo.tagline">Kitchens · Baths · Whole-home remodels</span>
       </a>
     </div>
   </header>
@@ -25,77 +25,90 @@
 
   <aside class="side-nav" id="side-nav" aria-hidden="true">
     <div class="side-nav-header">
-      <span class="side-nav-title">Menu</span>
-      <button type="button" class="menu-close" aria-label="Close menu">&times;</button>
+      <span class="side-nav-title" data-i18n="nav.menu">Menu</span>
+      <button type="button" class="menu-close" aria-label="Close menu" data-i18n-attr="aria-label:aria.closeMenu">&times;</button>
     </div>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="gallery.html">Gallery</a>
-      <a href="contact.html">Contact</a>
+      <a href="index.html" data-i18n="nav.home">Home</a>
+      <a href="about.html" data-i18n="nav.about">About</a>
+      <a href="gallery.html" data-i18n="nav.gallery">Gallery</a>
+      <a href="contact.html" data-i18n="nav.contact">Contact</a>
     </nav>
+    <div class="lang-switcher" role="group" aria-labelledby="lang-label">
+      <span class="lang-label" id="lang-label" data-i18n="lang.label">Language</span>
+      <div class="lang-buttons">
+        <button type="button" class="lang-btn" data-lang="en" aria-pressed="true">EN</button>
+        <button type="button" class="lang-btn" data-lang="sk" aria-pressed="false">SK</button>
+      </div>
+    </div>
   </aside>
 
   <main>
-    <h1>Contact us</h1>
-    <p>
+    <h1 data-i18n="contact.title">Contact us</h1>
+    <p data-i18n-html="contact.intro">
       Tell us a bit about your project and we’ll get back to you, usually
       within one business day. Or call
       <a href="tel:5552347800">(555) 234-7800</a>.
     </p>
 
-    <h2>Send a message</h2>
+    <h2 data-i18n="contact.form.title">Send a message</h2>
 
     <div id="form-msg" class="form-msg" role="status"></div>
 
     <form id="contact-form" action="#" method="post" novalidate>
       <div class="field">
-        <label for="name">Name *</label>
+        <label for="name" data-i18n="contact.label.name">Name *</label>
         <input type="text" id="name" name="name" required autocomplete="name">
       </div>
 
       <div class="field">
-        <label for="email">Email *</label>
+        <label for="email" data-i18n="contact.label.email">Email *</label>
         <input type="email" id="email" name="email" required autocomplete="email">
       </div>
 
       <div class="field">
-        <label for="phone">Phone</label>
+        <label for="phone" data-i18n="contact.label.phone">Phone</label>
         <input type="tel" id="phone" name="phone" autocomplete="tel">
       </div>
 
       <div class="field">
-        <label for="project">Project type</label>
+        <label for="project" data-i18n="contact.label.project">Project type</label>
         <select id="project" name="project">
-          <option value="">— select —</option>
-          <option value="Kitchen remodel">Kitchen remodel</option>
-          <option value="Bathroom renovation">Bathroom renovation</option>
-          <option value="Interior renovation">Interior renovation</option>
-          <option value="Addition / structural">Addition / structural</option>
-          <option value="Other">Other</option>
+          <option value="" data-i18n="contact.option.select">— select —</option>
+          <option value="Kitchen remodel" data-i18n="contact.option.kitchen">Kitchen remodel</option>
+          <option value="Bathroom renovation" data-i18n="contact.option.bath">Bathroom renovation</option>
+          <option value="Interior renovation" data-i18n="contact.option.interior">Interior renovation</option>
+          <option value="Addition / structural" data-i18n="contact.option.addition">Addition / structural</option>
+          <option value="Other" data-i18n="contact.option.other">Other</option>
         </select>
       </div>
 
       <div class="field">
-        <label for="message">Message *</label>
-        <textarea id="message" name="message" required placeholder="What are you looking to renovate? Rough timeline or budget helps."></textarea>
+        <label for="message" data-i18n="contact.label.message">Message *</label>
+        <textarea
+          id="message"
+          name="message"
+          required
+          placeholder="What are you looking to renovate? Rough timeline or budget helps."
+          data-i18n-attr="placeholder:contact.placeholder.message"
+        ></textarea>
       </div>
 
-      <button type="submit" class="btn">Send message</button>
+      <button type="submit" class="btn" data-i18n="contact.submit">Send message</button>
 
-      <p class="form-note">
+      <p class="form-note" data-i18n="contact.note">
         Submitting opens your email app with the message filled in, addressed
         to info@parkerrenovations.com. You still need to hit send in your
         mail program.
       </p>
     </form>
 
-    <h2>Other ways to reach us</h2>
+    <h2 data-i18n="contact.other.title">Other ways to reach us</h2>
     <div class="contact-box">
-      <p><strong>Phone:</strong> <a href="tel:5552347800">(555) 234-7800</a></p>
-      <p><strong>Email:</strong> <a href="mailto:info@parkerrenovations.com">info@parkerrenovations.com</a></p>
-      <p><strong>Office:</strong> 1420 Industrial Way, Suite 4, Riverside, ST 00000</p>
-      <p><strong>Hours:</strong> Mon–Fri 7:30am–5:00pm</p>
+      <p><strong data-i18n="contact.phone">Phone:</strong> <a href="tel:5552347800">(555) 234-7800</a></p>
+      <p><strong data-i18n="contact.email">Email:</strong> <a href="mailto:info@parkerrenovations.com">info@parkerrenovations.com</a></p>
+      <p><strong data-i18n="contact.office">Office:</strong> 1420 Industrial Way, Suite 4, Riverside, ST 00000</p>
+      <p><strong data-i18n="contact.hours">Hours:</strong> <span data-i18n="contact.hours.value">Mon–Fri 7:30am–5:00pm</span></p>
     </div>
   </main>
 
@@ -105,7 +118,7 @@
       <a href="tel:5552347800">(555) 234-7800</a>
       <a href="mailto:info@parkerrenovations.com">info@parkerrenovations.com</a>
     </p>
-    <p>&copy; 2026 Parker Renovations. All rights reserved.</p>
+    <p data-i18n="footer.rights">&copy; 2026 Parker Renovations. All rights reserved.</p>
   </footer>
 
   <script src="script.js"></script>
