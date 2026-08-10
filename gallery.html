@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery — Parker Renovations</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <button type="button" class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="side-nav">
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+      </button>
+      <a class="logo" href="index.html">
+        Parker Renovations
+        <span>Kitchens · Baths · Whole-home remodels</span>
+      </a>
+    </div>
+  </header>
+
+  <div class="nav-overlay" id="nav-overlay" hidden></div>
+
+  <aside class="side-nav" id="side-nav" aria-hidden="true">
+    <div class="side-nav-header">
+      <span class="side-nav-title">Menu</span>
+      <button type="button" class="menu-close" aria-label="Close menu">&times;</button>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </aside>
+
+  <main>
+    <h1>Project gallery</h1>
+    <p class="gallery-intro">
+      A few recent before-and-after jobs. Photos are stand-ins for now —
+      swap them for your real project shots when you have them.
+    </p>
+
+    <!-- Project 1 -->
+    <div class="project">
+      <h3>Kitchen remodel — Oak Street</h3>
+      <p class="meta">Full gut · new cabinets, counters, and flooring · 7 weeks</p>
+      <div class="before-after">
+        <div class="ba-item">
+          <label>Before</label>
+          <img
+            src="https://picsum.photos/seed/kitchen-before/640/400"
+            alt="Kitchen before renovation"
+            width="640"
+            height="400"
+          >
+        </div>
+        <div class="ba-item">
+          <label>After</label>
+          <img
+            src="https://picsum.photos/seed/kitchen-after/640/400"
+            alt="Kitchen after renovation"
+            width="640"
+            height="400"
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project">
+      <h3>Master bath — Hillcrest</h3>
+      <p class="meta">Walk-in shower, dual vanity, new tile · 4 weeks</p>
+      <div class="before-after">
+        <div class="ba-item">
+          <label>Before</label>
+          <img
+            src="https://picsum.photos/seed/bath-before/640/400"
+            alt="Bathroom before renovation"
+            width="640"
+            height="400"
+          >
+        </div>
+        <div class="ba-item">
+          <label>After</label>
+          <img
+            src="https://picsum.photos/seed/bath-after/640/400"
+            alt="Bathroom after renovation"
+            width="640"
+            height="400"
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project">
+      <h3>Basement finish — Maple Lane</h3>
+      <p class="meta">Framing, drywall, flooring, half bath · 9 weeks</p>
+      <div class="before-after">
+        <div class="ba-item">
+          <label>Before</label>
+          <img
+            src="https://picsum.photos/seed/basement-before/640/400"
+            alt="Basement before renovation"
+            width="640"
+            height="400"
+          >
+        </div>
+        <div class="ba-item">
+          <label>After</label>
+          <img
+            src="https://picsum.photos/seed/basement-after/640/400"
+            alt="Basement after renovation"
+            width="640"
+            height="400"
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 4 -->
+    <div class="project">
+      <h3>Living room open-up — Cedar Ave</h3>
+      <p class="meta">Load-bearing wall removal, new beam, flooring · 3 weeks</p>
+      <div class="before-after">
+        <div class="ba-item">
+          <label>Before</label>
+          <img
+            src="https://picsum.photos/seed/living-before/640/400"
+            alt="Living room before renovation"
+            width="640"
+            height="400"
+          >
+        </div>
+        <div class="ba-item">
+          <label>After</label>
+          <img
+            src="https://picsum.photos/seed/living-after/640/400"
+            alt="Living room after renovation"
+            width="640"
+            height="400"
+          >
+        </div>
+      </div>
+    </div>
+
+    <p>
+      Want something like this for your place?
+      <a href="contact.html">Request an estimate</a>.
+    </p>
+  </main>
+
+  <footer>
+    <p>Parker Renovations · (555) 234-7800 · info@parkerrenovations.com</p>
+    <p>&copy; 2026 Parker Renovations. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

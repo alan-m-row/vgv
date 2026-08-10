@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Parker Renovations</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <button type="button" class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="side-nav">
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+      </button>
+      <a class="logo" href="index.html">
+        Parker Renovations
+        <span>Kitchens · Baths · Whole-home remodels</span>
+      </a>
+    </div>
+  </header>
+
+  <div class="nav-overlay" id="nav-overlay" hidden></div>
+
+  <aside class="side-nav" id="side-nav" aria-hidden="true">
+    <div class="side-nav-header">
+      <span class="side-nav-title">Menu</span>
+      <button type="button" class="menu-close" aria-label="Close menu">&times;</button>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </aside>
+
+  <main>
+    <h1>Contact us</h1>
+    <p>
+      Tell us a bit about your project and we’ll get back to you, usually
+      within one business day. Or call
+      <a href="tel:5552347800">(555) 234-7800</a>.
+    </p>
+
+    <h2>Send a message</h2>
+
+    <div id="form-msg" class="form-msg" role="status"></div>
+
+    <form id="contact-form" action="#" method="post" novalidate>
+      <div class="field">
+        <label for="name">Name *</label>
+        <input type="text" id="name" name="name" required autocomplete="name">
+      </div>
+
+      <div class="field">
+        <label for="email">Email *</label>
+        <input type="email" id="email" name="email" required autocomplete="email">
+      </div>
+
+      <div class="field">
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" autocomplete="tel">
+      </div>
+
+      <div class="field">
+        <label for="project">Project type</label>
+        <select id="project" name="project">
+          <option value="">— select —</option>
+          <option value="Kitchen remodel">Kitchen remodel</option>
+          <option value="Bathroom renovation">Bathroom renovation</option>
+          <option value="Interior renovation">Interior renovation</option>
+          <option value="Addition / structural">Addition / structural</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="message">Message *</label>
+        <textarea id="message" name="message" required placeholder="What are you looking to renovate? Rough timeline or budget helps."></textarea>
+      </div>
+
+      <button type="submit" class="btn">Send message</button>
+
+      <p class="form-note">
+        Submitting opens your email app with the message filled in, addressed
+        to info@parkerrenovations.com. You still need to hit send in your
+        mail program.
+      </p>
+    </form>
+
+    <h2>Other ways to reach us</h2>
+    <div class="contact-box">
+      <p><strong>Phone:</strong> <a href="tel:5552347800">(555) 234-7800</a></p>
+      <p><strong>Email:</strong> <a href="mailto:info@parkerrenovations.com">info@parkerrenovations.com</a></p>
+      <p><strong>Office:</strong> 1420 Industrial Way, Suite 4, Riverside, ST 00000</p>
+      <p><strong>Hours:</strong> Mon–Fri 7:30am–5:00pm</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>Parker Renovations · (555) 234-7800 · info@parkerrenovations.com</p>
+    <p>&copy; 2026 Parker Renovations. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
