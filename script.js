@@ -16,10 +16,13 @@ function initSideNav() {
   var closeBtn = document.querySelector(".menu-close");
   var sideNav = document.getElementById("side-nav");
   var overlay = document.getElementById("nav-overlay");
+  var scrollY = 0;
 
   if (!toggle || !sideNav || !overlay) return;
 
   function openNav() {
+    // Remember scroll so iOS fixed-body lock doesn't jump
+    scrollY = window.scrollY || window.pageYOffset || 0;
     sideNav.classList.add("is-open");
     sideNav.setAttribute("aria-hidden", "false");
     overlay.hidden = false;
@@ -27,8 +30,10 @@ function initSideNav() {
     void overlay.offsetWidth;
     overlay.classList.add("is-visible");
     document.body.classList.add("nav-open");
+    document.body.style.top = "-" + scrollY + "px";
     toggle.setAttribute("aria-expanded", "true");
     toggle.setAttribute("aria-label", "Close menu");
+    if (closeBtn) closeBtn.focus();
   }
 
   function closeNav() {
@@ -36,8 +41,11 @@ function initSideNav() {
     sideNav.setAttribute("aria-hidden", "true");
     overlay.classList.remove("is-visible");
     document.body.classList.remove("nav-open");
+    document.body.style.top = "";
+    window.scrollTo(0, scrollY);
     toggle.setAttribute("aria-expanded", "false");
     toggle.setAttribute("aria-label", "Open menu");
+    toggle.focus();
 
     function onOverlayEnd() {
       if (!overlay.classList.contains("is-visible")) {
@@ -60,9 +68,31 @@ function initSideNav() {
   if (closeBtn) closeBtn.addEventListener("click", closeNav);
   overlay.addEventListener("click", closeNav);
 
+  // Close on Escape
   document.addEventListener("keydown", function (e) {
     if (e.key === "Escape" && sideNav.classList.contains("is-open")) {
       closeNav();
+    }
+  });
+
+  // Basic focus trap while menu is open
+  sideNav.addEventListener("keydown", function (e) {
+    if (e.key !== "Tab" || !sideNav.classList.contains("is-open")) return;
+
+    var focusable = sideNav.querySelectorAll(
+      'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])'
+    );
+    if (!focusable.length) return;
+
+    var first = focusable[0];
+    var last = focusable[focusable.length - 1];
+
+    if (e.shiftKey && document.activeElement === first) {
+      e.preventDefault();
+      last.focus();
+    } else if (!e.shiftKey && document.activeElement === last) {
+      e.preventDefault();
+      first.focus();
     }
   });
 }
