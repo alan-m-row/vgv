@@ -64,9 +64,9 @@ var translations = {
     "home.hero.text":
       "Bathroom cores, bathrooms, kitchens, facades, balconies. Usually a panel block, sometimes brick, now and then a house outside town.",
     "home.featured.kicker": "Recent job",
-    "home.featured.title": "Petržalka, two-room panel flat",
+    "home.featured.title": "Ružinov, bathroom",
     "home.featured.text":
-      "Umakart out, core rebuilt in blockwork, bathroom and WC in one room. Twelve days.",
+      "Walk-in shower, large-format tile. Bathroom after the rebuild.",
     "home.featured.link": "More from this job",
     "home.services.title": "What we do",
     "home.jadro.title": "Bathroom core",
@@ -393,9 +393,9 @@ var translations = {
     "home.hero.text":
       "Prerábky jadier, kúpeľní, kuchýň, fasád a balkónov. Paneláky v Bratislave, občas tehla, príležitostne rodinný dom.",
     "home.featured.kicker": "Nedávna zákazka",
-    "home.featured.title": "Petržalka, 2-izbový panelák",
+    "home.featured.title": "Ružinov, kúpeľňa",
     "home.featured.text":
-      "Umakart von, jadro vymurované, kúpeľňa a WC v jednom. Dvanásť dní.",
+      "Sprchový kút, veľkoformátový obklad. Kúpeľňa po rekonštrukcii.",
     "home.featured.link": "Viac o tejto realizácii",
     "home.services.title": "Čo robíme",
     "home.jadro.title": "Bytové jadro",
@@ -722,9 +722,9 @@ var translations = {
     "home.hero.text":
       "Ядра, ванні, кухні, фасади, балкони. Здебільшого панелька, інколи цегла, час від часу будинок за містом.",
     "home.featured.kicker": "Нещодавнє замовлення",
-    "home.featured.title": "Петржалка, двокімнатна панелька",
+    "home.featured.title": "Ружинов, ванна",
     "home.featured.text":
-      "Умакарт геть, ядро вимурували, ванна і туалет в одній кімнаті. Дванадцять днів.",
+      "Душова, великоформатна плитка. Ванна після реконструкції.",
     "home.featured.link": "До цього замовлення",
     "home.services.title": "Що робимо",
     "home.jadro.title": "Сантехнічне ядро",
