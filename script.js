@@ -302,10 +302,9 @@ var translations = {
     "estimate.project.full": "Whole flat / house",
     "estimate.project.full.hint": "Most of the floor area",
     "estimate.project.addition": "House",
-    "estimate.property.label": "What kind of building?",
-    "estimate.property.panelak": "Panel block",
-    "estimate.property.tehla": "Brick",
-    "estimate.property.dom": "House",
+    "estimate.property.label": "Apartment or house?",
+    "estimate.property.apartment": "Apartment",
+    "estimate.property.home": "House",
     "estimate.area.label": "Area",
     "estimate.area.unit": "m²",
     "estimate.area.hint.jadro": "The core — bathroom and WC together, not the whole flat.",
@@ -633,9 +632,8 @@ var translations = {
     "estimate.project.full.hint": "Väčšina plochy bytu alebo domu",
     "estimate.project.addition": "Rodinný dom",
     "estimate.property.label": "Aký je to byt / dom?",
-    "estimate.property.panelak": "Panelák",
-    "estimate.property.tehla": "Tehla",
-    "estimate.property.dom": "Rodinný dom",
+    "estimate.property.apartment": "Byt",
+    "estimate.property.home": "Rodinný dom",
     "estimate.area.label": "Plocha",
     "estimate.area.unit": "m²",
     "estimate.area.hint.jadro": "Jadro — kúpeľňa a WC spolu, nie celý byt.",
@@ -962,10 +960,9 @@ var translations = {
     "estimate.project.full": "Уся квартира / будинок",
     "estimate.project.full.hint": "Більшість площі квартири або будинку",
     "estimate.project.addition": "Приватний будинок",
-    "estimate.property.label": "Яка це квартира / будинок?",
-    "estimate.property.panelak": "Панелька",
-    "estimate.property.tehla": "Цегла",
-    "estimate.property.dom": "Приватний будинок",
+    "estimate.property.label": "Квартира чи будинок?",
+    "estimate.property.apartment": "Квартира",
+    "estimate.property.home": "Приватний будинок",
     "estimate.area.label": "Площа",
     "estimate.area.unit": "м²",
     "estimate.area.hint.jadro": "Ядро — ванна і туалет разом, не вся квартира.",
@@ -1437,7 +1434,7 @@ var ESTIMATE_CONFIG = {
     }
   },
   quality: { standard: 0.85, comfort: 1, premium: 1.28 },
-  property: { panelak: 1, tehla: 1.06, dom: 1.12 },
+  property: { apartment: 1, home: 1.12 },
   extras: { layout: 1.15, mep: 1.18, old: 1.12 },
   lowFactor: 0.82,
   highFactor: 1.22
@@ -1459,7 +1456,7 @@ function formatMoney(n, lang) {
 }
 
 function resolveProjectKey(state) {
-  if (state.project === "full" && state.property === "dom") return "addition";
+  if (state.project === "full" && state.property === "home") return "addition";
   return state.project;
 }
 
@@ -1511,6 +1508,30 @@ function extraLabels(state, lang) {
   if (state.mep) parts.push(t("estimate.extras.mep", lang));
   if (state.old) parts.push(t("estimate.extras.old", lang));
   return parts.length ? parts.join(", ") : t("estimate.extras.none", lang);
+}
+
+var lastFreeProperty = "apartment";
+
+function syncPropertyForProject(form) {
+  var project = (form.querySelector('input[name="project"]:checked') || {}).value;
+  var apt = form.querySelector('input[name="property"][value="apartment"]');
+  var home = form.querySelector('input[name="property"][value="home"]');
+  if (!apt || !home) return;
+
+  if (project === "fasada") {
+    if (!apt.disabled) lastFreeProperty = apt.checked ? "apartment" : "home";
+    home.checked = true;
+    apt.checked = false;
+    apt.disabled = true;
+    return;
+  }
+
+  var wasLocked = apt.disabled;
+  apt.disabled = false;
+  if (wasLocked) {
+    home.checked = lastFreeProperty === "home";
+    apt.checked = lastFreeProperty !== "home";
+  }
 }
 
 function applyAreaBounds(form, projectKey, keepValue) {
@@ -1608,9 +1629,16 @@ function syncAreaInputs(source) {
 function initEstimate() {
   var form = document.getElementById("estimate-form");
   if (!form) return;
+  syncPropertyForProject(form);
   applyAreaBounds(form, readEstimateState(form).project || "jadro", true);
 
   form.addEventListener("change", function (e) {
+    if (e.target && e.target.name === "property" && e.target.value && !e.target.disabled) {
+      lastFreeProperty = e.target.value;
+    }
+    if (e.target && e.target.name === "project") {
+      syncPropertyForProject(form);
+    }
     if (e.target && (e.target.name === "project" || e.target.name === "property")) {
       applyAreaBounds(form, readEstimateState(form).project || "jadro", true);
     }

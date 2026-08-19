@@ -686,6 +686,10 @@ p {
   box-shadow: inset 0 0 0 1px var(--accent);
 }
 
+.choice:has(input:disabled) {
+  display: none;
+}
+
 .field-hint {
   font-size: 14px;
   color: #5c564e;
