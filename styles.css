@@ -549,6 +549,11 @@ p {
   object-fit: cover;
 }
 
+.photo-frame.photo-portrait img {
+  aspect-ratio: 3 / 4;
+  object-position: left center;
+}
+
 .project {
   margin-bottom: 36px;
 }
