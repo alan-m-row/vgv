@@ -1,0 +1,15 @@
+# Secrets — never commit API keys or env files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*
+secrets.json
+id_rsa
+id_ed25519
+
+# Local notes — not for the public repo / Pages
+ESTIMATOR.txt
+NEXT.md
+REF/

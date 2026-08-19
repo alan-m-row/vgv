@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="Ružinov, kuchyňa">
+  <rect fill="#e4ddd0" width="800" height="600"/>
+  <rect fill="none" stroke="#c4b8a8" stroke-width="1.5" x="28" y="28" width="744" height="544"/>
+  <line x1="28" y1="420" x2="772" y2="420" stroke="#c4b8a8" stroke-width="1"/>
+  <text x="400" y="268" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#3d3830">Ružinov</text>
+  <text x="400" y="308" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#7a7166">kuchyňa · 3-izbový byt</text>
+</svg>

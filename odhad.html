@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Odhad ceny | VGV-stav, Bratislava</title>
+  <meta name="description" content="Orientačné rozpätie pre jadro, kuchyňu, fasádu, balkón alebo kompletnú rekonštrukciu bytu v Bratislave.">
+  <meta property="og:title" content="Odhad ceny | VGV-stav, Bratislava">
+  <meta property="og:description" content="Orientačné rozpätie pre jadro, kuchyňu, fasádu, balkón alebo kompletnú rekonštrukciu bytu v Bratislave.">
+  <link rel="canonical" href="odhad.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="odhad">
+  <header>
+    <div class="wrap">
+      <button type="button" class="menu-toggle" aria-label="Otvoriť menu" aria-expanded="false" aria-controls="side-nav" data-i18n-attr="aria-label:aria.openMenu">
+        <span class="burger-line"></span><span class="burger-line"></span><span class="burger-line"></span>
+      </button>
+      <a class="logo" href="index.html">
+        <img class="logo-img" src="images/logo.svg" alt="" width="270" height="130">
+        <span class="logo-text">
+          <span data-site="name">VGV-stav s.r.o.</span>
+          <span data-i18n="logo.tagline">stavebná spoločnosť</span>
+        </span>
+      </a>
+      <nav class="desk-nav">
+        <a href="odhad.html" data-i18n="nav.odhad">Kalkulačka</a>
+        <a href="kontakt.html" data-i18n="nav.contact">Kontakt</a>
+        <a href="realizacie.html" data-i18n="nav.realizacie">Realizácie</a>
+        <a href="jadro.html" data-i18n="nav.jadro">Jadro</a>
+        <a href="kupelna.html" data-i18n="nav.kupelna">Kúpeľňa</a>
+        <a href="kuchyna.html" data-i18n="nav.kuchyna">Kuchyňa</a>
+        <a href="fasada.html" data-i18n="nav.fasada">Fasáda</a>
+        <a href="balkon.html" data-i18n="nav.balkon">Balkón</a>
+      </nav>
+      <a class="header-phone" data-site="phone" hidden></a>
+      <div class="lang-buttons desk-lang">
+        <button type="button" class="lang-btn" data-lang="sk" aria-pressed="true">SK</button>
+        <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+        <button type="button" class="lang-btn" data-lang="uk" aria-pressed="false">UA</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="nav-overlay" id="nav-overlay" hidden></div>
+  <aside class="side-nav" id="side-nav" aria-hidden="true">
+    <div class="side-nav-header">
+      <span class="side-nav-title"><img class="logo-img" src="images/logo.svg" alt="" width="270" height="130"><span data-site="name">VGV-stav s.r.o.</span></span>
+      <button type="button" class="menu-close" aria-label="Zavrieť menu" data-i18n-attr="aria-label:aria.closeMenu">&times;</button>
+    </div>
+    <nav>
+      <a href="index.html" data-i18n="nav.home">Úvod</a>
+      <a href="odhad.html" data-i18n="nav.odhad">Kalkulačka</a>
+      <a href="kontakt.html" data-i18n="nav.contact">Kontakt</a>
+      <a href="realizacie.html" data-i18n="nav.realizacie">Realizácie</a>
+      <a href="jadro.html" data-i18n="nav.jadro">Jadro</a>
+      <a href="kupelna.html" data-i18n="nav.kupelna">Kúpeľňa</a>
+      <a href="kuchyna.html" data-i18n="nav.kuchyna">Kuchyňa</a>
+      <a href="fasada.html" data-i18n="nav.fasada">Fasáda</a>
+      <a href="balkon.html" data-i18n="nav.balkon">Balkón</a>
+      <a href="o-nas.html" data-i18n="nav.about">O nás</a>
+    </nav>
+    <div class="lang-switcher">
+      <span class="lang-label" data-i18n="lang.label">Jazyk</span>
+      <div class="lang-buttons">
+        <button type="button" class="lang-btn" data-lang="sk" aria-pressed="true">SK</button>
+        <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+        <button type="button" class="lang-btn" data-lang="uk" aria-pressed="false">UA</button>
+      </div>
+    </div>
+  </aside>
+
+  <main>
+    <h1 data-i18n="estimate.title">Orientačná cena</h1>
+    <p class="lede" data-i18n="estimate.intro">
+      Toto nie je ponuka. Je to rozpätie, aby ste vedeli, či sa bavíme o tých istých peniazoch. Platí číslo po obhliadke.
+    </p>
+
+    <div class="estimate-layout">
+      <form id="estimate-form" class="estimate-form" autocomplete="off">
+        <fieldset>
+          <legend data-i18n="estimate.project.label">Čo ideme robiť?</legend>
+          <div class="choice-grid">
+            <label class="choice">
+              <input type="radio" name="project" value="jadro" checked>
+              <span class="choice-title" data-i18n="estimate.project.jadro">Bytové jadro</span>
+              <span class="choice-hint" data-i18n="estimate.project.jadro.hint">Kúpeľňa + WC v paneláku</span>
+            </label>
+            <label class="choice">
+              <input type="radio" name="project" value="bathroom">
+              <span class="choice-title" data-i18n="estimate.project.bathroom">Kúpeľňa</span>
+              <span class="choice-hint" data-i18n="estimate.project.bathroom.hint">Len kúpeľňa</span>
+            </label>
+            <label class="choice">
+              <input type="radio" name="project" value="kitchen">
+              <span class="choice-title" data-i18n="estimate.project.kitchen">Kuchyňa</span>
+              <span class="choice-hint" data-i18n="estimate.project.kitchen.hint">Miestnosť, nie linka</span>
+            </label>
+            <label class="choice">
+              <input type="radio" name="project" value="fasada">
+              <span class="choice-title" data-i18n="estimate.project.fasada">Fasáda</span>
+              <span class="choice-hint" data-i18n="estimate.project.fasada.hint">Omietka, menšie zateplenie</span>
+            </label>
+            <label class="choice">
+              <input type="radio" name="project" value="balkon">
+              <span class="choice-title" data-i18n="estimate.project.balkon">Balkón</span>
+              <span class="choice-hint" data-i18n="estimate.project.balkon.hint">Hydroizolácia, dlažba, zábradlie</span>
+            </label>
+            <label class="choice">
+              <input type="radio" name="project" value="full">
+              <span class="choice-title" data-i18n="estimate.project.full">Celý byt / dom</span>
+              <span class="choice-hint" data-i18n="estimate.project.full.hint">Väčšina plochy bytu alebo domu</span>
+            </label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend data-i18n="estimate.property.label">Aký je to byt / dom?</legend>
+          <div class="choice-grid choice-grid-3">
+            <label class="choice">
+              <input type="radio" name="property" value="panelak" checked>
+              <span class="choice-title" data-i18n="estimate.property.panelak">Panelák</span>
+            </label>
+            <label class="choice">
+              <input type="radio" name="property" value="tehla">
+              <span class="choice-title" data-i18n="estimate.property.tehla">Tehla</span>
+            </label>
+            <label class="choice">
+              <input type="radio" name="property" value="dom">
+              <span class="choice-title" data-i18n="estimate.property.dom">Rodinný dom</span>
+            </label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend data-i18n="estimate.area.label">Plocha</legend>
+          <p class="field-hint" id="area-hint">Jadro — kúpeľňa a WC spolu, nie celý byt.</p>
+          <div class="area-row">
+            <input type="range" id="area" name="area-slider" min="3" max="12" value="5" step="1">
+            <div class="area-input">
+              <input type="number" id="area-num" name="area" min="3" max="12" value="5" step="1" inputmode="numeric">
+              <span data-i18n="estimate.area.unit">m²</span>
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend data-i18n="estimate.quality.label">Úroveň</legend>
+          <div class="choice-grid choice-grid-3">
+            <label class="choice">
+              <input type="radio" name="quality" value="standard">
+              <span class="choice-title" data-i18n="estimate.quality.standard">Jednoduchá</span>
+              <span class="choice-hint" data-i18n="estimate.quality.standard.hint">Slušné, nič extra</span>
+            </label>
+            <label class="choice">
+              <input type="radio" name="quality" value="comfort" checked>
+              <span class="choice-title" data-i18n="estimate.quality.comfort">Stredná</span>
+              <span class="choice-hint" data-i18n="estimate.quality.comfort.hint">Čo berie väčšina</span>
+            </label>
+            <label class="choice">
+              <input type="radio" name="quality" value="premium">
+              <span class="choice-title" data-i18n="estimate.quality.premium">Vyššia</span>
+              <span class="choice-hint" data-i18n="estimate.quality.premium.hint">Lepší obklad, lepšie batérie</span>
+            </label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend data-i18n="estimate.extras.label">Platí ešte niečo?</legend>
+          <div class="extra-list">
+            <label class="extra">
+              <input type="checkbox" id="extra-layout" name="extra-layout" value="layout">
+              <span data-i18n="estimate.extras.layout">Posúvame steny</span>
+            </label>
+            <label class="extra">
+              <input type="checkbox" id="extra-mep" name="extra-mep" value="mep">
+              <span data-i18n="estimate.extras.mep">Nové rozvody aj mimo miestnosti</span>
+            </label>
+            <label class="extra">
+              <input type="checkbox" id="extra-old" name="extra-old" value="old" checked>
+              <span data-i18n="estimate.extras.old">Stavba pred rokom 1990</span>
+            </label>
+          </div>
+        </fieldset>
+      </form>
+
+      <aside class="estimate-result" aria-live="polite">
+        <p class="estimate-label" data-i18n="estimate.result.label">Orientačné rozpätie</p>
+        <p class="estimate-range" id="estimate-range">—</p>
+        <p class="estimate-summary" id="estimate-summary"></p>
+        <p class="estimate-disclaimer" data-i18n="estimate.result.disclaimer">
+          Rozpätie, nie zmluva. Stupačky, skryté rúry a to, čo si vyberiete v predajni, ho posunú. Potvrdíme, keď budeme stáť v izbe.
+        </p>
+        <div class="estimate-actions">
+          <a class="btn" id="estimate-contact" href="kontakt.html" data-i18n="estimate.cta.contact">Chcem reálnu ponuku</a>
+          <a class="btn btn-secondary" data-site="phone" data-i18n="cta.call" hidden>Zavolať</a>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="footer-top">
+        <p class="footer-name" data-site="legal-name">VGV-stav s.r.o.</p>
+        <p data-site="city">Bratislava a okolie</p>
+        <p data-site="address" hidden></p>
+        <p class="footer-legal" data-site="ico-row" hidden>IČO: <span data-site="ico"></span></p>
+        <p class="footer-legal" data-site="dic-row" hidden>DIČ: <span data-site="dic"></span></p>
+        <p class="footer-legal" data-site="icdph-row" hidden>IČ DPH: <span data-site="icdph"></span></p>
+        <p class="footer-legal" data-site="register" hidden></p>
+      </div>
+      <nav class="footer-nav">
+        <a href="jadro.html" data-i18n="nav.jadro">Jadro</a>
+        <a href="realizacie.html" data-i18n="nav.realizacie">Realizácie</a>
+        <a href="o-nas.html" data-i18n="nav.about">O nás</a>
+        <a href="kontakt.html" data-i18n="nav.contact">Kontakt</a>
+        <a href="ochrana-udajov.html" data-i18n="nav.privacy">Ochrana údajov</a>
+      </nav>
+      <p class="footer-links">
+        <a data-site="phone" hidden></a>
+        <a data-site="email" hidden></a>
+        <a data-site="whatsapp" data-i18n="cta.whatsapp" hidden>WhatsApp</a>
+      </p>
+      <p data-i18n="footer.rights">© 2026 VGV-stav s.r.o.</p>
+    </div>
+  </footer>
+  <div class="sticky-cta">
+    <a class="btn" data-site="phone" data-needs-phone data-i18n="cta.call" hidden>Zavolať</a>
+    <a class="btn" href="kontakt.html" data-fallback-write data-i18n="cta.write">Napísať</a>
+    <a class="btn btn-secondary" href="kontakt.html" data-i18n="cta.visit">Obhliadka zdarma</a>
+  </div>
+  <script src="site-config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
