@@ -88,8 +88,8 @@ var translations = {
     "home.how.2": "We come to the flat. No charge for that.",
     "home.how.3": "You get a written price. What is in, what is not.",
     "home.how.4": "We pick a start date and do the work.",
-    "home.areas":
-      "Petržalka, Ružinov, Nové Mesto, Staré Mesto, Karlova Ves, Dúbravka, Lamač, Rača, Vrakuňa and the towns around Bratislava.",
+    "home.areas.title": "Where we go",
+    "home.areas": "Bratislava and the usual towns around the city.",
 
     "jadro.title": "Bathroom cores in Bratislava panel blocks",
     "jadro.lede":
@@ -116,12 +116,6 @@ var translations = {
     "jadro.q3": "Do we need the building manager’s say-so?",
     "jadro.a3":
       "For a core, usually yes — at least a notice. Some buildings want a written agreement. We have done this before.",
-    "jadro.q4": "Can we live there during the work?",
-    "jadro.a4":
-      "You can sleep there. You will not shower there. Neighbours with a spare bathroom are useful. Some people go to family for two weeks.",
-    "jadro.q5": "Can the bathroom and WC become one room?",
-    "jadro.a5":
-      "Often, in a panel block. Not always. It depends on the stack and the walls. We say on the visit.",
 
     "kupelna.title": "Bathrooms, done properly",
     "kupelna.lede":
@@ -140,12 +134,6 @@ var translations = {
     "kupelna.q3": "Shower or a bath?",
     "kupelna.a3":
       "Both are fine. In a small panel bathroom a shower usually gives you more room. We say if the waste or the falls will not play along.",
-    "kupelna.q4": "Can we live there during the work?",
-    "kupelna.a4":
-      "You can sleep there. You will not shower in that room. A neighbour or family for a week helps.",
-    "kupelna.q5": "Do we need the building manager’s say-so?",
-    "kupelna.a5":
-      "If the layout and the stack stay put, a notice is often enough. If we move walls, the manager wants to know.",
 
     "kuchyna.title": "Kitchens",
     "kuchyna.lede":
@@ -164,12 +152,6 @@ var translations = {
     "kuchyna.q3": "How long does it take?",
     "kuchyna.a3":
       "A week or two of building work. Fitting the units on top of that, if you have them ready — no need to wait for another fitter.",
-    "kuchyna.q4": "Can we live there during the work?",
-    "kuchyna.a4":
-      "Yes. You will not have a kitchen for that stretch. Water in the bathroom stays.",
-    "kuchyna.q5": "You first, or the kitchen studio first?",
-    "kuchyna.a5":
-      "The room first, then the fit. If you already have a drawing from a studio, we work to it. We can do both.",
 
     "fasada.title": "Facades, not a whole estate",
     "fasada.lede":
@@ -191,15 +173,9 @@ var translations = {
     "fasada.q2": "Do you insulate a whole panel building?",
     "fasada.a2":
       "No. We do a house, one wall, a loggia, a repair. A whole panel block belongs to a bigger firm.",
-    "fasada.q3": "Do we need the building manager’s say-so?",
+    "fasada.q3": "Is scaffolding in the price?",
     "fasada.a3":
-      "On a block, usually yes. On a house, no — unless it is listed or the office wants a paper.",
-    "fasada.q4": "Is scaffolding in the price?",
-    "fasada.a4":
       "When we need it, yes. A lift as well. It is in the quote, not a surprise in the yard.",
-    "fasada.q5": "Can we live there during the work?",
-    "fasada.a5":
-      "Yes. The noise and dust are outside. Keep the windows shut that day.",
 
     "balkon.title": "Balconies",
     "balkon.lede":
@@ -221,14 +197,8 @@ var translations = {
     "balkon.q2": "Do you glaze balconies as well?",
     "balkon.a2":
       "Not as a standard line. If you want that, we say after we look, or we point you somewhere.",
-    "balkon.q3": "Do we need the building manager’s say-so?",
+    "balkon.q3": "How long does it take?",
     "balkon.a3":
-      "Usually yes — at least a notice. Changing the railings or adding glazing almost always needs it.",
-    "balkon.q4": "Can we live there during the work?",
-    "balkon.a4":
-      "Yes. You will not have the balcony. You go in through the flat.",
-    "balkon.q5": "How long does it take?",
-    "balkon.a5":
       "Four to eight days if the waterproofing dries as it should. Rain stretches it.",
 
     "realizacie.title": "Work we have finished",
@@ -292,6 +262,10 @@ var translations = {
     "contact.dic": "Tax ID:",
     "contact.icdph": "VAT ID:",
     "contact.err.required": "Name, email and a message, please.",
+    "contact.err.name": "Name needs at least two letters.",
+    "contact.err.email": "That does not look like an email.",
+    "contact.err.phone": "Use a Slovak number — +421… or 09…",
+    "contact.err.message": "A bit more detail, at least a sentence.",
     "contact.ok.sent": "Opening your mail app. If nothing happens, write to us at the address below.",
     "contact.mail.subject": "Website enquiry from {name}",
     "contact.mail.name": "Name",
@@ -443,8 +417,8 @@ var translations = {
     "home.how.2": "Prídeme do bytu. Za to nič neberieme.",
     "home.how.3": "Dostanete písomnú cenu. Čo je v nej, čo nie.",
     "home.how.4": "Vyberieme termín a ideme na to.",
-    "home.areas":
-      "Petržalka, Ružinov, Nové Mesto, Staré Mesto, Karlova Ves, Dúbravka, Lamač, Rača, Vrakuňa a obce okolo Bratislavy.",
+    "home.areas.title": "Kam chodíme",
+    "home.areas": "Bratislava a bežné obce okolo mesta.",
 
     "jadro.title": "Rekonštrukcia bytového jadra v Bratislave",
     "jadro.lede":
@@ -471,12 +445,6 @@ var translations = {
     "jadro.q3": "Treba súhlas správcu?",
     "jadro.a3":
       "Pri jadre zvyčajne áno — aspoň ohlásenie. Niektoré bytovky chcú písomnú dohodu. Robili sme to.",
-    "jadro.q4": "Dá sa bývať počas prác?",
-    "jadro.a4":
-      "Spať áno. Sprchovať sa nie. Hodí sa sused so záchodom. Niektorí idú na dva týždne k rodine.",
-    "jadro.q5": "Dá sa spojiť kúpeľňa a WC?",
-    "jadro.a5":
-      "V paneláku často áno. Nie vždy. Závisí od stupačky a stien. Povieme na obhliadke.",
 
     "kupelna.title": "Rekonštrukcia kúpeľne v Bratislave",
     "kupelna.lede":
@@ -495,12 +463,6 @@ var translations = {
     "kupelna.q3": "Sprcha alebo vaňa?",
     "kupelna.a3":
       "Oboje ide. V malom paneláku sprcha zvyčajne dáva viac miesta. Povieme, keď odpad alebo spád nesedí.",
-    "kupelna.q4": "Dá sa bývať počas prác?",
-    "kupelna.a4":
-      "Spať áno. Sprchovať sa v tej izbe nie. Hodí sa sused alebo rodina na týždeň.",
-    "kupelna.q5": "Treba súhlas správcu?",
-    "kupelna.a5":
-      "Keď sa nemení dispozícia ani stupačka, často stačí ohlásenie. Keď posúvame steny, správca to chce vedieť.",
 
     "kuchyna.title": "Rekonštrukcia kuchyne v Bratislave",
     "kuchyna.lede":
@@ -519,12 +481,6 @@ var translations = {
     "kuchyna.q3": "Ako dlho to trvá?",
     "kuchyna.a3":
       "Týždeň až dva stavebná práca. Montáž linky k tomu, keď ju máte pripravenú — nemusíte čakať na iného montážnika.",
-    "kuchyna.q4": "Dá sa bývať počas prác?",
-    "kuchyna.a4":
-      "Áno. Kuchyňu ten čas nemáte. Voda v kúpeľni ostáva.",
-    "kuchyna.q5": "Najprv vy, alebo najprv štúdio?",
-    "kuchyna.a5":
-      "Najprv izba, potom montáž. Keď už máte výkres zo štúdia, ideme podľa neho. Oboje vieme urobiť my.",
 
     "fasada.title": "Fasády a opravy omietky",
     "fasada.lede":
@@ -546,15 +502,9 @@ var translations = {
     "fasada.q2": "Robíte zateplenie celého paneláku?",
     "fasada.a2":
       "Nie. Robíme dom, jednu stenu, lodžiu, opravu. Celý panelák patrí väčšej firme.",
-    "fasada.q3": "Treba súhlas správcu?",
+    "fasada.q3": "Je lešenie v cene?",
     "fasada.a3":
-      "Pri bytovke zvyčajne áno. Pri rodinnom dome nie, kým nejde o pamiatku alebo úrad.",
-    "fasada.q4": "Je lešenie v cene?",
-    "fasada.a4":
       "Keď ho treba, áno. Plošina tiež. Povieme to v ponuke, nie ako prekvapenie na dvore.",
-    "fasada.q5": "Dá sa bývať počas prác?",
-    "fasada.a5":
-      "Áno. Hluk a prach sú vonku. Okná ten deň radšej zatvorené.",
 
     "balkon.title": "Balkóny",
     "balkon.lede":
@@ -576,14 +526,8 @@ var translations = {
     "balkon.q2": "Robíte aj zasklenie?",
     "balkon.a2":
       "Nie ako bežnú položku. Keď to chcete, povieme po obhliadke, alebo vás nasmerujeme.",
-    "balkon.q3": "Treba súhlas správcu?",
+    "balkon.q3": "Ako dlho to trvá?",
     "balkon.a3":
-      "Zvyčajne áno — aspoň ohlásenie. Zmena zábradlia alebo zasklenie to chce skoro vždy.",
-    "balkon.q4": "Dá sa bývať počas prác?",
-    "balkon.a4":
-      "Áno. Balkón ten čas nemáte. Do bytu sa vchádza z izby.",
-    "balkon.q5": "Ako dlho to trvá?",
-    "balkon.a5":
       "Štyri až osem dní, keď hydroizolácia schne, ako má. Dážď to predĺži.",
 
     "realizacie.title": "Realizácie",
@@ -647,6 +591,10 @@ var translations = {
     "contact.dic": "DIČ:",
     "contact.icdph": "IČ DPH:",
     "contact.err.required": "Meno, e-mail a správa, prosím.",
+    "contact.err.name": "Meno má mať aspoň dve písmená.",
+    "contact.err.email": "Toto nevyzerá ako e-mail.",
+    "contact.err.phone": "Slovenské číslo — +421… alebo 09…",
+    "contact.err.message": "Ešte veta navyše, aspoň jedna.",
     "contact.ok.sent": "Otvárame mail. Ak sa nič nedeje, napíšte na adresu dolu.",
     "contact.mail.subject": "Dopyt z webu od {name}",
     "contact.mail.name": "Meno",
@@ -798,8 +746,8 @@ var translations = {
     "home.how.2": "Приїжджаємо в квартиру. За це нічого не беремо.",
     "home.how.3": "Отримуєте письмову ціну. Що в ній є, чого немає.",
     "home.how.4": "Обираємо термін і робимо.",
-    "home.areas":
-      "Петржалка, Ружинов, Нове Місто, Старе Місто, Карлова Вес, Дубравка, Ламач, Рача, Вракуня і села довкола Братислави.",
+    "home.areas.title": "Куди їздимо",
+    "home.areas": "Братислава і звичайні села довкола міста.",
 
     "jadro.title": "Сантехнічні ядра в братиславських панельках",
     "jadro.lede":
@@ -826,12 +774,6 @@ var translations = {
     "jadro.q3": "Потрібна згода управителя?",
     "jadro.a3":
       "При ядрі зазвичай так — принаймні повідомлення. Деякі будинки хочуть письмову угоду. Робили це.",
-    "jadro.q4": "Чи можна жити під час робіт?",
-    "jadro.a4":
-      "Спати так. Приймати душ ні. Корисно мати сусіда з туалетом. Дехто їде на два тижні до родини.",
-    "jadro.q5": "Чи можна об’єднати ванну і туалет?",
-    "jadro.a5":
-      "У панельці часто так. Не завжди. Залежить від стояка і стін. Скажемо на огляді.",
 
     "kupelna.title": "Ванні, як слід",
     "kupelna.lede":
@@ -850,12 +792,6 @@ var translations = {
     "kupelna.q3": "Душ чи ванна?",
     "kupelna.a3":
       "І те, і те нормально. У маленькій панельці душ зазвичай дає більше місця. Скажемо, якщо стік або ухил не зійдеться.",
-    "kupelna.q4": "Чи можна жити під час робіт?",
-    "kupelna.a4":
-      "Спати так. Приймати душ у тій кімнаті ні. Корисно мати сусіда або родину на тиждень.",
-    "kupelna.q5": "Потрібна згода управителя?",
-    "kupelna.a5":
-      "Якщо планування і стояк не змінюються, часто досить повідомлення. Якщо рухаємо стіни, управитель хоче знати.",
 
     "kuchyna.title": "Кухні",
     "kuchyna.lede":
@@ -874,12 +810,6 @@ var translations = {
     "kuchyna.q3": "Скільки це триває?",
     "kuchyna.a3":
       "Тиждень-два будівельна робота. Монтаж гарнітура до того, якщо він уже є — не треба чекати на іншого монтажника.",
-    "kuchyna.q4": "Чи можна жити під час робіт?",
-    "kuchyna.a4":
-      "Так. Кухні той час немає. Вода у ванній лишається.",
-    "kuchyna.q5": "Спочатку ви, чи спочатку студія?",
-    "kuchyna.a5":
-      "Спочатку кімната, потім монтаж. Якщо вже є креслення зі студії, йдемо за ним. І те, і те можемо зробити ми.",
 
     "fasada.title": "Фасади, не цілий мікрорайон",
     "fasada.lede":
@@ -901,15 +831,9 @@ var translations = {
     "fasada.q2": "Робите утеплення цілої панельки?",
     "fasada.a2":
       "Ні. Робимо будинок, одну стіну, лоджію, ремонт. Ціла панелька — це більша фірма.",
-    "fasada.q3": "Потрібна згода управителя?",
+    "fasada.q3": "Риштування в ціні?",
     "fasada.a3":
-      "У багатоквартирному зазвичай так. У приватному будинку ні, поки не йдеться про пам’ятку чи установу.",
-    "fasada.q4": "Риштування в ціні?",
-    "fasada.a4":
       "Якщо треба, так. Підйомник теж. Скажемо в пропозиції, не як сюрприз на подвір’ї.",
-    "fasada.q5": "Чи можна жити під час робіт?",
-    "fasada.a5":
-      "Так. Шум і пил зовні. Вікна того дня краще зачинені.",
 
     "balkon.title": "Балкони",
     "balkon.lede":
@@ -931,14 +855,8 @@ var translations = {
     "balkon.q2": "Робите також засклення?",
     "balkon.a2":
       "Не як звичайну позицію. Якщо хочете, скажемо після огляду або направимо далі.",
-    "balkon.q3": "Потрібна згода управителя?",
+    "balkon.q3": "Скільки це триває?",
     "balkon.a3":
-      "Зазвичай так — принаймні повідомлення. Зміна огорожі або засклення цього майже завжди потребує.",
-    "balkon.q4": "Чи можна жити під час робіт?",
-    "balkon.a4":
-      "Так. Балкона той час немає. У квартиру заходите зсередини.",
-    "balkon.q5": "Скільки це триває?",
-    "balkon.a5":
       "Чотири-вісім днів, якщо гідроізоляція сохне як треба. Дощ це подовжить.",
 
     "realizacie.title": "Зроблені роботи",
@@ -1002,6 +920,10 @@ var translations = {
     "contact.dic": "ДІЧ:",
     "contact.icdph": "ІЧ DPH:",
     "contact.err.required": "Ім’я, пошта і повідомлення, будь ласка.",
+    "contact.err.name": "Ім’я має мати щонайменше дві літери.",
+    "contact.err.email": "Це не схоже на електронну пошту.",
+    "contact.err.phone": "Словацький номер — +421… або 09…",
+    "contact.err.message": "Ще речення, хоча б одне.",
     "contact.ok.sent": "Відкриваємо пошту. Якщо нічого не сталося, напишіть на адресу нижче.",
     "contact.mail.subject": "Запит із сайту від {name}",
     "contact.mail.name": "Ім’я",
@@ -1166,6 +1088,7 @@ function applyTranslations(lang) {
   refreshEstimate(lang);
   refreshContactEstimatePrefill(lang);
   refreshWhatsAppFabLabel(lang);
+  refreshContactFieldErrors(lang);
 }
 
 function initLanguageSwitcher() {
@@ -1748,6 +1671,90 @@ function initContactEstimatePrefill() {
   refreshContactEstimatePrefill();
 }
 
+var CONTACT_RE = {
+  name: /^[\p{L}][\p{L}\s'\-]{1,79}$/u,
+  email: /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/,
+  phone: /^(?:\+|00)?421[1-9]\d{8}$|^0[1-9]\d{8}$/
+};
+
+function contactDigits(value) {
+  return String(value || "").replace(/[\s().\-/]/g, "");
+}
+
+function contactFieldError(field, value) {
+  var v = String(value || "").trim();
+  if (field === "name") {
+    if (!v || !CONTACT_RE.name.test(v)) return "contact.err.name";
+    return "";
+  }
+  if (field === "email") {
+    if (!v || !CONTACT_RE.email.test(v)) return "contact.err.email";
+    return "";
+  }
+  if (field === "phone") {
+    if (!v) return "";
+    if (!CONTACT_RE.phone.test(contactDigits(v))) return "contact.err.phone";
+    return "";
+  }
+  if (field === "message") {
+    if (v.length < 10) return "contact.err.message";
+    return "";
+  }
+  return "";
+}
+
+function setContactFieldState(input, errorKey, lang) {
+  var field = input.closest(".field");
+  if (!field) return;
+  var err = field.querySelector(".field-error");
+  if (errorKey) {
+    field.classList.add("is-invalid");
+    field.classList.remove("is-valid");
+    input.setAttribute("aria-invalid", "true");
+    if (err) {
+      err.hidden = false;
+      err.textContent = t(errorKey, lang);
+    }
+  } else {
+    field.classList.remove("is-invalid");
+    var filled = String(input.value || "").trim() !== "";
+    field.classList.toggle("is-valid", filled);
+    input.setAttribute("aria-invalid", "false");
+    if (err) {
+      err.hidden = true;
+      err.textContent = "";
+    }
+  }
+}
+
+function refreshContactFieldErrors(lang) {
+  var form = document.getElementById("contact-form");
+  if (!form) return;
+  lang = lang || getLang();
+  ["name", "email", "phone", "message"].forEach(function (name) {
+    var input = form.elements[name];
+    if (!input) return;
+    var field = input.closest(".field");
+    if (!field || (!field.classList.contains("is-invalid") && !input.dataset.touched)) return;
+    setContactFieldState(input, contactFieldError(name, input.value), lang);
+  });
+}
+
+function initContactValidation(form) {
+  ["name", "email", "phone", "message"].forEach(function (name) {
+    var input = form.elements[name];
+    if (!input) return;
+    function run() {
+      input.dataset.touched = "1";
+      setContactFieldState(input, contactFieldError(name, input.value));
+    }
+    input.addEventListener("blur", run);
+    input.addEventListener("input", function () {
+      if (input.dataset.touched || String(input.value || "").trim()) run();
+    });
+  });
+}
+
 function handleContactForm(e) {
   e.preventDefault();
   var form = e.target;
@@ -1759,9 +1766,25 @@ function handleContactForm(e) {
   var message = form.message.value.trim();
   var lang = getLang();
 
-  if (!name || !email || !message) {
+  var errors = {
+    name: contactFieldError("name", name),
+    email: contactFieldError("email", email),
+    phone: contactFieldError("phone", phone),
+    message: contactFieldError("message", message)
+  };
+  var firstInvalid = null;
+  ["name", "email", "phone", "message"].forEach(function (key) {
+    var input = form.elements[key];
+    if (!input) return;
+    input.dataset.touched = "1";
+    setContactFieldState(input, errors[key], lang);
+    if (errors[key] && !firstInvalid) firstInvalid = input;
+  });
+
+  if (firstInvalid) {
     msg.className = "form-msg show err";
     msg.textContent = t("contact.err.required", lang);
+    firstInvalid.focus();
     return;
   }
 
@@ -1789,6 +1812,12 @@ function handleContactForm(e) {
   msg.className = "form-msg show ok";
   msg.textContent = t("contact.ok.sent", lang);
   form.reset();
+  ["name", "email", "phone", "message"].forEach(function (key) {
+    var input = form.elements[key];
+    if (!input) return;
+    delete input.dataset.touched;
+    setContactFieldState(input, "");
+  });
 }
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -1800,6 +1829,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var form = document.getElementById("contact-form");
   if (form) {
     form.addEventListener("submit", handleContactForm);
+    initContactValidation(form);
     initContactEstimatePrefill();
   }
   initEstimate();

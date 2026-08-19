@@ -173,7 +173,7 @@ body.nav-open .menu-toggle .burger-line:nth-child(3) {
 
 .desk-nav,
 .header-phone,
-.desk-lang {
+.lang-buttons.desk-lang {
   display: none;
 }
 
@@ -833,6 +833,28 @@ form .btn {
   width: 100%;
 }
 
+.field-error {
+  display: none;
+  margin-top: 6px;
+  font-size: 13px;
+  color: #9a4030;
+}
+
+.field.is-invalid .field-error {
+  display: block;
+}
+
+.field.is-invalid input,
+.field.is-invalid textarea {
+  border-color: #c9897a;
+  outline-color: #c9897a;
+}
+
+.field.is-valid input,
+.field.is-valid textarea {
+  border-color: #8aa882;
+}
+
 .form-note {
   font-size: 14px;
   color: #5c564e;
@@ -1091,7 +1113,7 @@ footer .wrap {
     display: inline-block;
   }
 
-  .desk-lang {
+  .lang-buttons.desk-lang {
     display: flex;
     gap: 6px;
     margin-left: 8px;
