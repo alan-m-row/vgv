@@ -481,6 +481,11 @@ p {
   object-fit: cover;
 }
 
+.featured-photo.photo-portrait img {
+  aspect-ratio: 3 / 4;
+  object-position: center 30%;
+}
+
 .featured-caption {
   max-width: 34em;
 }
