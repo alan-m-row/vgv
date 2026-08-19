@@ -1842,13 +1842,6 @@ function handleContactForm(e) {
 
   msg.className = "form-msg show ok";
   msg.textContent = t("contact.ok.sent", lang);
-  form.reset();
-  ["name", "email", "phone", "message"].forEach(function (key) {
-    var input = form.elements[key];
-    if (!input) return;
-    delete input.dataset.touched;
-    setContactFieldState(input, "");
-  });
 }
 
 document.addEventListener("DOMContentLoaded", function () {

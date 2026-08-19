@@ -11,7 +11,7 @@ var SITE = {
   phone: "",
   phoneDisplay: "",
   whatsapp: "",
-  email: "",
+  email: "test@gmail.com",
 
   address: "Teslova 11, 821 04 Bratislava – Ružinov",
   city: "Bratislava a okolie",
