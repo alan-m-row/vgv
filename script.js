@@ -89,7 +89,8 @@ var translations = {
     "home.how.3": "You get a written price. What is in, what is not.",
     "home.how.4": "We pick a start date and do the work.",
     "home.areas.title": "Where we go",
-    "home.areas": "Bratislava and the usual towns around the city.",
+    "home.areas":
+      "Petržalka, Ružinov, Nové Mesto, Staré Mesto, Karlova Ves, Dúbravka, Lamač, Rača, Vrakuňa — and around the city, Pezinok, Senec, Malacky.",
 
     "jadro.title": "Bathroom cores in Bratislava panel blocks",
     "jadro.lede":
@@ -418,7 +419,8 @@ var translations = {
     "home.how.3": "Dostanete písomnú cenu. Čo je v nej, čo nie.",
     "home.how.4": "Vyberieme termín a ideme na to.",
     "home.areas.title": "Kam chodíme",
-    "home.areas": "Bratislava a bežné obce okolo mesta.",
+    "home.areas":
+      "Petržalka, Ružinov, Nové Mesto, Staré Mesto, Karlova Ves, Dúbravka, Lamač, Rača, Vrakuňa — a okolie, Pezinok, Senec, Malacky.",
 
     "jadro.title": "Rekonštrukcia bytového jadra v Bratislave",
     "jadro.lede":
@@ -747,7 +749,8 @@ var translations = {
     "home.how.3": "Отримуєте письмову ціну. Що в ній є, чого немає.",
     "home.how.4": "Обираємо термін і робимо.",
     "home.areas.title": "Куди їздимо",
-    "home.areas": "Братислава і звичайні села довкола міста.",
+    "home.areas":
+      "Петржалка, Ружинов, Нове Місто, Старе Місто, Карлова Вес, Дубравка, Ламач, Рача, Вракуня — і околиці, Пезінок, Сенець, Малацки.",
 
     "jadro.title": "Сантехнічні ядра в братиславських панельках",
     "jadro.lede":
