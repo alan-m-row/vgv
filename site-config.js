@@ -1,5 +1,5 @@
 // VGV-stav s.r.o. — firemné údaje na jednom mieste.
-// Telefón, e-mail, WhatsApp a ORSR vložka zatiaľ nie sú. Prázdne polia sa skryjú.
+// ORSR vložka zatiaľ nie je. Prázdne polia sa skryjú.
 
 var SITE = {
   name: "VGV-stav s.r.o.",
@@ -8,9 +8,9 @@ var SITE = {
   ownerName: "",
 
   // Príklad: "+421901234567"  /  "+421 901 234 567"  /  "421901234567"
-  phone: "",
-  phoneDisplay: "",
-  whatsapp: "",
+  phone: "+421918095955",
+  phoneDisplay: "+421 918 095 955",
+  whatsapp: "+421918095955",
   email: "test@gmail.com",
 
   address: "Teslova 11, 821 04 Bratislava – Ružinov",
