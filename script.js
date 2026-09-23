@@ -399,7 +399,7 @@ var translations = {
     "home.featured.link": "Chcem vedieť viac",
     "home.services.title": "Čo robíme",
     "home.jadro.title": "Bytové jadro",
-    "home.jadro.text": "????Klasická prerábka jadra, odstránenie umakartu???? ",
+    "home.jadro.text": "Klasická prerábka jadra, odstránenie umakartu.",
     "home.bath.title": "Kúpeľňa",
     "home.bath.text": "Obklad, hydroizolácia, sanita.",
     "home.kitchen.title": "Kuchyňa",
@@ -435,17 +435,17 @@ var translations = {
       "Búranie a odvoz sutiny, murovanie, hydroizolácia, obklad, dohodnutá sanita a začistenie okolitých stien.",
     "jadro.out.title": "Čo v cene nie je",
     "jadro.out":
-      "Nábytok, dizajnové batérie, ktoré si kúpite sami, a prekvapenia v stupačke. Tie naceníme, keď ich uvidíme.",
+      "Nábytok a iné vybavenie",
     "jadro.faq.title": "Často kladené otázky",
-    "jadro.q1": "Koľko stojí jadro v Bratislave?",
+    "jadro.q1": "Koľko stojí prerábka jadra v Bratislave?",
     "jadro.a1":
-      "Bežné panelákové jadro je často niekde medzi 6 500 a 12 000 €, podľa veľkosti a vybavenia. Kalkulačka na webe dá rozpätie. Skutočné číslo je po obhliadke.",
+      "Bežné panelákové jadro je často niekde medzi 6 500 a 12 000 €, podľa veľkosti a vybavenia.",
     "jadro.q2": "Ako dlho to trvá?",
     "jadro.a2":
-      "Dvanásť až štrnásť dní, keď sa stupačka správa. Keď je odpad zlý, trvá to dlhšie. Povieme to.",
+      "12 až 14 dní. Pri komplikovaných prípadoch sa doba môže predĺžiť. ",
     "jadro.q3": "Treba súhlas správcu?",
     "jadro.a3":
-      "Pri jadre zvyčajne áno — aspoň ohlásenie. Niektoré bytovky chcú písomnú dohodu. Robili sme to.",
+      "Pri jadre je zvyčajne potrebné aspoň ohlásenie. V iných prípadoch je potrebná písomná dohoda",
 
     "kupelna.title": "Rekonštrukcia kúpeľne v Bratislave",
     "kupelna.lede":
@@ -457,13 +457,13 @@ var translations = {
     "kupelna.faq.title": "Často kladené otázky",
     "kupelna.q1": "Koľko stojí kúpeľňa v Bratislave?",
     "kupelna.a1":
-      "Bežná paneláková kúpeľňa je často medzi 5 000 a 10 000 €, podľa veľkosti a vybavenia. Kalkulačka dá rozpätie. Skutočné číslo je po obhliadke.",
+      "Bežná cena prerábky kúpeľne je často medzi 5 000 a 10 000 €, podľa veľkosti a vybavenia.",
     "kupelna.q2": "Ako dlho to trvá?",
     "kupelna.a2":
-      "Osem až dvanásť dní, keď ide len o kúpeľňu. Keď sa spája s jadrom, počítajte s tými dvanástimi až štrnástimi.",
+      "8 až 12 dní, ak ide len o kúpeľňu. Pri prerábke jadra 12 až 14 dní.",
     "kupelna.q3": "Sprcha alebo vaňa?",
     "kupelna.a3":
-      "Oboje ide. V malom paneláku sprcha zvyčajne dáva viac miesta. Povieme, keď odpad alebo spád nesedí.",
+      "Záleží od preferencie majiteľa, voľného priestoru a umiestnenia rozvodov.",
 
     "kuchyna.title": "Rekonštrukcia kuchyne v Bratislave",
     "kuchyna.lede":
@@ -533,7 +533,7 @@ var translations = {
 
     "realizacie.title": "Realizácie",
     "realizacie.intro":
-      "Niekoľko posledných zákaziek. Presné adresy z pochopiteľných dôvodov neuvádzame.",
+      "Niektoré z naších posledných zákaziek.",
     "realizacie.p1.title": "Jadro, 2-izbový panelák, Petržalka",
     "realizacie.p1.meta": "Umakart von · kúpeľňa a WC spolu · 12 dní",
     "realizacie.p2.title": "Kuchyňa, 3-izbový byt, Ružinov",
