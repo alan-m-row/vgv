@@ -19,13 +19,13 @@ var translations = {
     "meta.desc.home":
       "Bathroom cores, bathrooms, kitchens, facades and balconies in Bratislava panel blocks and brick flats. Site visit at no charge.",
     "meta.desc.jadro":
-      "We replace umakart cores in Bratislava panel blocks. Brick-built bathroom and WC, usually 12–14 days.",
+      "We replace umakart cores in Bratislava panel blocks. Brick-built bathroom and WC, usually one to two weeks.",
     "meta.desc.kupelna":
       "Turnkey bathrooms in Bratislava. Strip-out, waterproofing, tile, sanitary ware.",
     "meta.desc.kuchyna":
       "Kitchen renovations in Bratislava. Services, surfaces and prep for the new run of units.",
     "meta.desc.fasada":
-      "Plaster, repairs and smaller insulation jobs in Bratislava. A house or part of a block. Site visit at no charge.",
+      "Plaster, repairs and insulation in Bratislava. A house or a whole panel block. Site visit at no charge.",
     "meta.desc.balkon":
       "Waterproofing, tile and railings on balconies in Bratislava. Site visit at no charge.",
     "meta.desc.realizacie":
@@ -76,7 +76,7 @@ var translations = {
     "home.kitchen.title": "Kitchen",
     "home.kitchen.text": "Services, tile, floor. Preparation for a new kitchen.",
     "home.fasada.title": "Facade",
-    "home.fasada.text": "Plaster, repairs, insulation of a smaller area. Houses only.",
+    "home.fasada.text": "Plaster, repairs, insulation. A house or a block.",
     "home.balkon.title": "Balcony",
     "home.balkon.text": "Waterproofing, tile, railings.",
     "home.full.title": "Full flat renovation",
@@ -89,8 +89,9 @@ var translations = {
     "home.how.3": "We prepare a price.",
     "home.how.4": "We agree a start date and get going.",
     "home.areas.title": "Where we work",
+    "home.suppliers.title": "Suppliers",
     "home.areas":
-      "Petržalka, Ružinov, Nové Mesto, Staré Mesto, Karlova Ves, Dúbravka, Lamač, Rača, Vrakuňa and the surroundings, Pezinok, Senec, Malacky.",
+      "Petržalka, Ružinov, Nové Mesto, Staré Mesto, Karlova Ves, Dúbravka, Lamač, Rača, Vrakuňa and the surroundings, Pezinok, Senec, Malacky. Elsewhere too, when that is agreed.",
 
     "jadro.title": "Bathroom cores in Bratislava panel blocks",
     "jadro.lede":
@@ -98,7 +99,7 @@ var translations = {
     "jadro.p1":
       "Most weeks we are in Petržalka, Ružinov or Dúbravka. The cores are much the same, the stacks stay put, and you cannot move everything.",
     "jadro.p2":
-      "A typical job is twelve to fourteen days. You can stay in the flat if you have to, but you will not have a bathroom or WC for that stretch.",
+      "A typical job takes one to two weeks. You can stay in the flat if you have to, but you will not have a bathroom or WC for that stretch.",
     "jadro.p3":
       "The building manager usually wants to know. We can talk to them. If a stack or a load-bearing wall is involved, we say so before anyone lifts a hammer.",
     "jadro.in.title": "What's included",
@@ -113,7 +114,7 @@ var translations = {
       "A normal panel-block core is often between €6,500 and €12,000, depending on size and fittings.",
     "jadro.q2": "How long does it take?",
     "jadro.a2":
-      "12 to 14 days. Complicated cases can take longer.",
+      "One to two weeks. Complicated cases can take longer.",
     "jadro.q3": "Do we need the building manager’s say-so?",
     "jadro.a3":
       "A core usually needs at least a notice. In other cases a written agreement is required.",
@@ -128,10 +129,10 @@ var translations = {
     "kupelna.faq.title": "Questions",
     "kupelna.q1": "What does a bathroom cost in Bratislava?",
     "kupelna.a1":
-      "A bathroom renovation often costs between €5,000 and €10,000, depending on size and fittings.",
+      "A bathroom renovation often costs between €5,000 and €15,000, depending on size and fittings.",
     "kupelna.q2": "How long does it take?",
     "kupelna.a2":
-      "8 to 12 days if it is only the bathroom. With a core renovation, 12 to 14 days.",
+      "One to two weeks.",
     "kupelna.q3": "Shower or a bath?",
     "kupelna.a3":
       "It depends on what the owner prefers, the free space, and where the pipes are.",
@@ -149,31 +150,28 @@ var translations = {
       "Yes. We assemble and fit it. We do not build a kitchen to measure. If you have one from a studio or a shop, we put it together.",
     "kuchyna.q2": "What does it cost?",
     "kuchyna.a2":
-      "Preparing the kitchen comes out at €7,000 to €15,000. It goes up if walls come out. We price the fitting once we know which units you have.",
+      "Every kitchen is different. Ask us and we will price it after we see the room.",
     "kuchyna.q3": "How long does it take?",
     "kuchyna.a3":
-      "The building work takes a week or two. If the units are ready, we fit them in the same job. You do not need a second fitter for the kitchen.",
+      "The building work takes a week. If the units are ready, we fit them in the same job. You do not need a second fitter for the kitchen.",
 
     "fasada.title": "Facades and plaster repairs",
     "fasada.lede":
-      "Plaster, repairs, a smaller stretch of insulation. A house or part of a block. We are not the crew that wraps an entire panel building.",
+      "Plaster, repairs and insulation. A house or a whole panel block.",
     "fasada.p1":
       "Usually a house outside town, or one wall or loggia on a block. Scaffolding or a lift is in the price when we need it. Colour and texture we agree first.",
     "fasada.p2":
-      "On a block the building manager usually wants to know. If it is a whole wall of the building, we say whether it is still our kind of job or you need a bigger firm.",
+      "On a block the building manager usually wants to know. We can insulate a whole wall of the building.",
     "fasada.in.title": "What's included",
     "fasada.in":
       "Cleaning off, plaster repair, the colour we agree, a smaller stretch of insulation, scaffolding when needed, taking the waste away.",
-    "fasada.out.title": "What's not included",
-    "fasada.out":
-      "Insulating a whole panel block, aluminium cladding, a permit drawing. Those we price separately, or they are not our job.",
     "fasada.faq.title": "Questions",
     "fasada.q1": "What does facade work cost?",
     "fasada.a1":
-      "A smaller area on a house starts at a few thousand euro. We do not insulate a whole block.",
+      "A smaller area on a house starts at a few thousand euro. A whole block is a separate price.",
     "fasada.q2": "Do you insulate a whole panel building?",
     "fasada.a2":
-      "No. We do a house, one wall, a loggia, a repair. A whole panel block belongs to a bigger firm.",
+      "Yes. We insulate a whole panel block as well as a house, one wall, a loggia or a repair.",
     "fasada.q3": "Is scaffolding in the price?",
     "fasada.a3":
       "When we need it, yes. A lift as well. It is in the quote, not a surprise in the yard.",
@@ -184,20 +182,20 @@ var translations = {
     "balkon.p1":
       "Drain and waterproofing first. Then tile or another walking surface we agree. Railings if they are rotten or need replacing.",
     "balkon.p2":
-      "You can live in the flat. On a block the manager usually wants a notice. Glazing and aluminium are not a standard item. We add a price for them once we have seen the balcony.",
+      "You can live in the flat. On a block the manager usually wants a notice. We also glaze balconies. That price is on top, once we have seen it.",
     "balkon.in.title": "What's included",
     "balkon.in":
       "Stripping the old layer, waterproofing, falls, tile, railings we agree, taking the waste away.",
     "balkon.out.title": "What's not included",
     "balkon.out":
-      "Glazing, a winter garden, the structure if the balcony is ready to fall off. That is a different job.",
+      "A winter garden, and the structure if the balcony is ready to fall off. That is a different job.",
     "balkon.faq.title": "Questions",
     "balkon.q1": "What does a balcony reconstruction cost?",
     "balkon.a1":
-      "A panel balcony comes out at €3,000 to €6,000. The railings move the sum. Glazing is extra.",
+      "A panel balcony comes out at €1,000 to €6,000. The railings move the sum. Glazing is extra.",
     "balkon.q2": "Do you glaze balconies as well?",
     "balkon.a2":
-      "Not as a standard item. If you want it, we add it to the job, or we send you to a firm that glazes balconies.",
+      "Yes. We glaze it with the balcony. The glazing price is on top.",
     "balkon.q3": "How long does it take?",
     "balkon.a3":
       "Four to eight days if the waterproofing dries as it should. Rain stretches it.",
@@ -229,7 +227,7 @@ var translations = {
       "In a panel block the stack does not move just because it would be convenient. We say that on the visit, not later in the price.",
     "about.areas.title": "Where we go",
     "about.areas":
-      "All five Bratislava districts, and the usual towns around the city when the job is a house.",
+      "All five Bratislava districts, and the usual towns around the city when the job is a house. Elsewhere too, when that is agreed.",
     "contact.title": "Free site visit",
     "contact.intro":
       "If you want a site visit, get in touch.",
@@ -252,7 +250,7 @@ var translations = {
       "A short description of the building and the scope.",
     "contact.submit": "Send",
     "contact.note":
-      "After you press the button you go to your email. Remember to send the message.",
+      "The message goes straight to our email.",
     "contact.noemail":
       "Email is not set on the site yet. Call, or use WhatsApp if the number is up.",
     "contact.other.title": "Or just call",
@@ -267,7 +265,8 @@ var translations = {
     "contact.err.email": "That does not look like an email.",
     "contact.err.phone": "Use a Slovak number, +421 or 09.",
     "contact.err.message": "A bit more detail, at least a sentence.",
-    "contact.ok.sent": "Opening your mail app. If nothing happens, write to us at the address below.",
+    "contact.ok.sent": "Message sent. We will get back to you.",
+    "contact.err.send": "The message did not send. Call us, or try again.",
     "contact.mail.subject": "Website enquiry from {name}",
     "contact.mail.name": "Name",
     "contact.mail.email": "Email",
@@ -279,7 +278,7 @@ var translations = {
 
     "privacy.title": "Privacy",
     "privacy.p1":
-      "This site does not use analytics cookies. If you send a message, VGV-stav s.r.o. uses your name, email and whatever you wrote only to reply and to price the job.",
+      "This site does not use analytics cookies. If you send a message, VGV-stav s.r.o. uses your name, email and whatever you wrote only to reply and to price the job. The form is delivered by email through FormSubmit.",
     "privacy.p2":
       "We do not sell that information. We keep it as long as the enquiry or the job needs it, then we delete it.",
     "privacy.p3":
@@ -294,7 +293,7 @@ var translations = {
     "estimate.project.kitchen": "Kitchen",
     "estimate.project.kitchen.hint": "Not including the kitchen units",
     "estimate.project.fasada": "Facade",
-    "estimate.project.fasada.hint": "Plaster or smaller insulation jobs",
+    "estimate.project.fasada.hint": "Plaster or insulation",
     "estimate.project.balkon": "Balcony",
     "estimate.project.balkon.hint": "Waterproofing, tile, railings, glazing",
     "estimate.project.bathroom": "Bathroom",
@@ -328,6 +327,7 @@ var translations = {
     "estimate.result.label": "Rough price",
     "estimate.result.disclaimer":
       "The final price can differ.",
+    "estimate.custom.fasada": "A whole block is priced after a visit.",
     "estimate.cta.contact": "I want to know more",
     "estimate.contact.message":
       "I used the estimator on the site.\n\nJob: {project}\nBuilding: {property}\nArea: {area} m²\nFinish: {quality}\nExtras: {extras}\nRange: {low} – {high}\n\nPlease get in touch about a visit."
@@ -348,13 +348,13 @@ var translations = {
     "meta.desc.home":
       "Bytové jadrá, kúpeľne, kuchyne, fasády a balkóny v bratislavských panelákoch a tehlových bytoch. Obhliadka zdarma.",
     "meta.desc.jadro":
-      "Vymieňame umakartové jadrá v bratislavských panelákoch. Murovaná kúpeľňa a WC, zvyčajne 12–14 dní.",
+      "Vymieňame umakartové jadrá v bratislavských panelákoch. Murovaná kúpeľňa a WC, zvyčajne jeden až dva týždne.",
     "meta.desc.kupelna":
       "Kúpeľne na kľúč v Bratislave. Búranie, hydroizolácia, obklad, sanita.",
     "meta.desc.kuchyna":
       "Rekonštrukcie kuchýň v Bratislave. Rozvody, obklad a príprava pre novú linku.",
     "meta.desc.fasada":
-      "Omietka, opravy a zateplenie menších plôch v Bratislave. Dom alebo časť bytovky. Obhliadka zdarma.",
+      "Omietka, opravy a zateplenie v Bratislave. Dom aj bytovka. Obhliadka zdarma.",
     "meta.desc.balkon":
       "Hydroizolácia, dlažba a zábradlie na balkónoch v Bratislave. Obhliadka zdarma.",
     "meta.desc.realizacie":
@@ -405,7 +405,7 @@ var translations = {
     "home.kitchen.title": "Kuchyňa",
     "home.kitchen.text": "Rozvody, obklad, podlaha. Príprava na novú kuchynskú linku.",
     "home.fasada.title": "Fasáda",
-    "home.fasada.text": "Omietka, opravy, zateplenie menšej plochy (Len rodinné domy)",
+    "home.fasada.text": "Omietka, opravy, zateplenie. Dom aj bytovka.",
     "home.balkon.title": "Balkón",
     "home.balkon.text": "Hydroizolácia, dlažba, zábradlie.",
     "home.full.title": "Kompletná prerábka bytov",
@@ -418,8 +418,9 @@ var translations = {
     "home.how.3": "Vypracujeme cenovú ponuku.",
     "home.how.4": "Dohodneme sa na termíne a môžeme ísť na to!",
     "home.areas.title": "Kde všade pracujeme?",
+    "home.suppliers.title": "Dodávatelia",
     "home.areas":
-      "Petržalka, Ružinov, Nové Mesto, Staré Mesto, Karlova Ves, Dúbravka, Lamač, Rača, Vrakuňa a okolie, Pezinok, Senec, Malacky.",
+      "Petržalka, Ružinov, Nové Mesto, Staré Mesto, Karlova Ves, Dúbravka, Lamač, Rača, Vrakuňa a okolie, Pezinok, Senec, Malacky. Inde tiež, keď sa dohodneme.",
 
     "jadro.title": "Rekonštrukcia bytového jadra v Bratislave",
     "jadro.lede":
@@ -427,7 +428,7 @@ var translations = {
     "jadro.p1":
       "Väčšinu týždňov sme v Petržalke, Ružinove alebo Dúbravke. Jadrá sa podobajú, stupačky ostanú na mieste a všetko sa posunúť nedá.",
     "jadro.p2":
-      "Bežná zákazka je dvanásť až štrnásť dní. V byte sa dá spať, ale kúpeľňu a WC ten čas nemáte.",
+      "Bežná zákazka trvá jeden až dva týždne. V byte sa dá spať, ale kúpeľňu a WC ten čas nemáte.",
     "jadro.p3":
       "Správca o tom zvyčajne chce vedieť. Vieme sa s ním porozprávať. Keď ide o stupačku alebo nosnú stenu, povieme to pred začiatkom prác.",
     "jadro.in.title": "Čo je v cene",
@@ -442,7 +443,7 @@ var translations = {
       "Bežné panelákové jadro je často niekde medzi 6 500 a 12 000 €, podľa veľkosti a vybavenia.",
     "jadro.q2": "Ako dlho to trvá?",
     "jadro.a2":
-      "12 až 14 dní. Pri komplikovaných prípadoch sa doba môže predĺžiť. ",
+      "Jeden až dva týždne. Pri komplikovaných prípadoch sa doba môže predĺžiť.",
     "jadro.q3": "Treba súhlas správcu?",
     "jadro.a3":
       "Pri jadre je zvyčajne potrebné aspoň ohlásenie. V iných prípadoch je potrebná písomná dohoda",
@@ -457,10 +458,10 @@ var translations = {
     "kupelna.faq.title": "Otázky",
     "kupelna.q1": "Koľko stojí kúpeľňa v Bratislave?",
     "kupelna.a1":
-      "Bežná cena prerábky kúpeľne je často medzi 5 000 a 10 000 €, podľa veľkosti a vybavenia.",
+      "Bežná cena prerábky kúpeľne je často medzi 5 000 a 15 000 €, podľa veľkosti a vybavenia.",
     "kupelna.q2": "Ako dlho to trvá?",
     "kupelna.a2":
-      "8 až 12 dní, ak ide len o kúpeľňu. Pri prerábke jadra 12 až 14 dní.",
+      "Jeden až dva týždne.",
     "kupelna.q3": "Sprcha alebo vaňa?",
     "kupelna.a3":
       "Záleží od preferencie majiteľa, voľného priestoru a umiestnenia rozvodov.",
@@ -478,31 +479,28 @@ var translations = {
       "Áno, zložíme ju a namontujeme. Linku na mieru nerobíme. Keď ju máte zo štúdia alebo z obchodu, poskladáme ju.",
     "kuchyna.q2": "Koľko to stojí?",
     "kuchyna.a2":
-      "Stavebná príprava kuchyne vychádza na 7 000 až 15 000 €. Pribúda, keď sa búrajú steny. Montáž linky naceníme, keď vieme, aká je.",
+      "Každá kuchyňa je iná. Napíšte nám a cenu povieme po obhliadke.",
     "kuchyna.q3": "Ako dlho to trvá?",
     "kuchyna.a3":
-      "Týždeň až dva trvá stavebná práca. Montáž linky stihneme v tom istom termíne, keď ju máte pripravenú. Ďalšieho montážnika na linku netreba.",
+      "Stavebná práca trvá týždeň. Montáž linky stihneme v tom istom termíne, keď ju máte pripravenú. Ďalšieho montážnika na linku netreba.",
 
     "fasada.title": "Fasády a opravy omietky",
     "fasada.lede":
-      "Omietka, opravy a zateplenie menšej plochy. Rodinný dom alebo časť bytovky. Celý panelák nezatepľujeme.",
+      "Omietka, opravy a zateplenie. Rodinný dom aj celý panelák.",
     "fasada.p1":
       "Väčšinou ide o rodinný dom za mestom, alebo o jednu stenu či lodžiu na bytovke. Lešenie alebo plošina je v cene, keď treba. Farba a štruktúra sa dohodnú vopred.",
     "fasada.p2":
-      "Pri bytovke o tom zvyčajne chce vedieť správca. Keď ide o celú stenu domu, povieme, či to ešte patrí k nám, alebo treba väčšiu firmu.",
+      "Pri bytovke o tom zvyčajne chce vedieť správca. Celú stenu domu vieme zatepliť tiež.",
     "fasada.in.title": "Čo je v cene",
     "fasada.in":
       "Očistenie, oprava omietky, dohodnutá farba, zateplenie menšej plochy, lešenie keď treba, odvoz sutiny.",
-    "fasada.out.title": "Čo v cene nie je",
-    "fasada.out":
-      "Zateplenie celého paneláku, hliníkový obklad, projekt pre úrad. To naceníme zvlášť, alebo to nie je naša zákazka.",
     "fasada.faq.title": "Otázky",
     "fasada.q1": "Koľko stojí fasáda?",
     "fasada.a1":
-      "Menšia plocha na dome začína na niekoľkých tisícoch. Celú bytovku nezatepľujeme.",
+      "Menšia plocha na dome začína na niekoľkých tisícoch. Celý panelák naceníme osobitne.",
     "fasada.q2": "Robíte zateplenie celého paneláku?",
     "fasada.a2":
-      "Nie. Robíme dom, jednu stenu, lodžiu, opravu. Celý panelák patrí väčšej firme.",
+      "Áno. Zateplíme celý panelák, aj dom, jednu stenu, lodžiu alebo opravu.",
     "fasada.q3": "Je lešenie v cene?",
     "fasada.a3":
       "Keď ho treba, áno. Plošina tiež. Povieme to v ponuke, nie ako prekvapenie na dvore.",
@@ -513,20 +511,20 @@ var translations = {
     "balkon.p1":
       "Najprv odtok a hydroizolácia. Potom dlažba alebo iná dohodnutá nášľapná vrstva. Zábradlie, keď je zhnité alebo ho treba vymeniť.",
     "balkon.p2":
-      "V byte sa dá bývať. Pri bytovke správca zvyčajne chce ohlásenie. Zasklenie a hliník nie sú bežná položka. Cenu k nim doplníme, až keď balkón uvidíme.",
+      "V byte sa dá bývať. Pri bytovke správca zvyčajne chce ohlásenie. Zasklenie vieme spraviť tiež. Cenu k nemu doplníme, až keď balkón uvidíme.",
     "balkon.in.title": "Čo je v cene",
     "balkon.in":
       "Strhnutie starej vrstvy, hydroizolácia, spád, dlažba, zábradlie podľa dohody, odvoz sutiny.",
     "balkon.out.title": "Čo v cene nie je",
     "balkon.out":
-      "Zasklenie, zimná záhrada, nosná konštrukcia, keď je balkón na spadnutie. To je iná zákazka.",
+      "Zimná záhrada a nosná konštrukcia, keď je balkón na spadnutie. To je iná zákazka.",
     "balkon.faq.title": "Otázky",
     "balkon.q1": "Koľko stojí rekonštrukcia balkóna?",
     "balkon.a1":
-      "Panelákový balkón vychádza na 3 000 až 6 000 €. Zábradlie sumu posúva. Zasklenie je zvlášť.",
+      "Panelákový balkón vychádza na 1 000 až 6 000 €. Zábradlie sumu posúva. Zasklenie je zvlášť.",
     "balkon.q2": "Robíte aj zasklenie?",
     "balkon.a2":
-      "Nie ako bežnú položku. Ak ho chcete, dopočítame ho k zákazke, alebo vás pošleme za firmou, ktorá zasklieva.",
+      "Áno. Zasklenie spravíme spolu s balkónom. Cenu k nemu dopočítame.",
     "balkon.q3": "Ako dlho to trvá?",
     "balkon.a3":
       "Štyri až osem dní, keď hydroizolácia schne, ako má. Dážď to predĺži.",
@@ -558,7 +556,7 @@ var translations = {
       "V paneláku sa stupačka neposunie, len preto, že by sa to hodilo. Povieme to hneď na obhliadke, nie v cene neskôr.",
     "about.areas.title": "Kam chodíme",
     "about.areas":
-      "Všetkých päť bratislavských okresov a bežné obce okolo mesta, keď ide o dom.",
+      "Všetkých päť bratislavských okresov a bežné obce okolo mesta, keď ide o dom. Inde tiež, keď sa dohodneme.",
     "contact.title": "Nezáväzná obhliadka",
     "contact.intro":
       "Ak máte záujem o ohliadku, nezabudnite nás kontaktovať",
@@ -581,7 +579,7 @@ var translations = {
       "Krátky popis stavby a rozsahu.",
     "contact.submit": "Odoslať",
     "contact.note":
-      "Po stlačení tlačidla budete presmerovaný na Váš email. Nezabudnite vašu správu odoslať!",
+      "Správa príde priamo na náš e-mail.",
     "contact.noemail":
       "E-mail na webe ešte nie je. Zavolajte, alebo použite WhatsApp, ak je číslo hore.",
     "contact.other.title": "Alebo rovno zavolajte",
@@ -596,7 +594,8 @@ var translations = {
     "contact.err.email": "Toto nevyzerá ako e-mail.",
     "contact.err.phone": "Slovenské číslo, +421 alebo 09.",
     "contact.err.message": "Ešte veta navyše, aspoň jedna.",
-    "contact.ok.sent": "Otvárame mail. Ak sa nič nedeje, napíšte na adresu dolu.",
+    "contact.ok.sent": "Správa odišla. Ozveme sa.",
+    "contact.err.send": "Správu sa nepodarilo odoslať. Zavolajte nám, alebo to skúste znova.",
     "contact.mail.subject": "Dopyt z webu od {name}",
     "contact.mail.name": "Meno",
     "contact.mail.email": "E-mail",
@@ -608,7 +607,7 @@ var translations = {
 
     "privacy.title": "Ochrana údajov",
     "privacy.p1":
-      "Tento web nepoužíva analytické cookies. Keď napíšete správu, VGV-stav s.r.o. použije meno, e-mail a text len na odpoveď a na nacenenie zákazky.",
+      "Tento web nepoužíva analytické cookies. Keď napíšete správu, VGV-stav s.r.o. použije meno, e-mail a text len na odpoveď a na nacenenie zákazky. Formulár doručí e-mailom služba FormSubmit.",
     "privacy.p2":
       "Údaje nepredávame. Držíme ich, kým trvá dopyt alebo zákazka, potom ich zmažeme.",
     "privacy.p3":
@@ -623,7 +622,7 @@ var translations = {
     "estimate.project.kitchen": "Kuchyňa",
     "estimate.project.kitchen.hint": "Okrem kuchynskej linky",
     "estimate.project.fasada": "Fasáda",
-    "estimate.project.fasada.hint": "Omietky alebo menšie zateplenia",
+    "estimate.project.fasada.hint": "Omietky alebo zateplenie",
     "estimate.project.balkon": "Balkón",
     "estimate.project.balkon.hint": "Hydroizolácia, dlažba, zábradlie, zasklenie",
     "estimate.project.bathroom": "Kúpeľňa",
@@ -657,6 +656,7 @@ var translations = {
     "estimate.result.label": "Orientačná cena",
     "estimate.result.disclaimer":
       "Výsledná cena sa môže líšiť!",
+    "estimate.custom.fasada": "Celý panelák naceníme po obhliadke.",
     "estimate.cta.contact": "Chcem vedieť viac",
     "estimate.contact.message":
       "Použil(a) som kalkulačka na webe.\n\nZákazka: {project}\nStavba: {property}\nPlocha: {area} m²\nÚroveň: {quality}\nĎalšie: {extras}\nRozpätie: {low} – {high}\n\nOzvite sa, prosím, kvôli obhliadke."
@@ -677,13 +677,13 @@ var translations = {
     "meta.desc.home":
       "Ядра, ванні, кухні, фасади й балкони в братиславських панельках і цегляних квартирах. Огляд безкоштовно.",
     "meta.desc.jadro":
-      "Міняємо умакартові ядра в братиславських панельках. Цегляна ванна і туалет, зазвичай 12–14 днів.",
+      "Міняємо умакартові ядра в братиславських панельках. Цегляна ванна і туалет, зазвичай один-два тижні.",
     "meta.desc.kupelna":
       "Ванні під ключ у Братиславі. Демонтаж, гідроізоляція, плитка, сантехніка.",
     "meta.desc.kuchyna":
       "Реконструкція кухонь у Братиславі. Комунікації, плитка й підготовка під нову кухню.",
     "meta.desc.fasada":
-      "Штукатурка, ремонт і утеплення менших площ у Братиславі. Будинок або частина багатоквартирного. Огляд безкоштовно.",
+      "Штукатурка, ремонт і утеплення в Братиславі. Будинок і панелька. Огляд безкоштовно.",
     "meta.desc.balkon":
       "Гідроізоляція, плитка й огорожа на балконах у Братиславі. Огляд безкоштовно.",
     "meta.desc.realizacie":
@@ -734,7 +734,7 @@ var translations = {
     "home.kitchen.title": "Кухня",
     "home.kitchen.text": "Комунікації, плитка, підлога. Підготовка під новий гарнітур.",
     "home.fasada.title": "Фасад",
-    "home.fasada.text": "Штукатурка, ремонт, утеплення меншої площі. Лише будинки.",
+    "home.fasada.text": "Штукатурка, ремонт, утеплення. Будинок і панелька.",
     "home.balkon.title": "Балкон",
     "home.balkon.text": "Гідроізоляція, плитка, огорожа.",
     "home.full.title": "Повна реконструкція квартир",
@@ -747,8 +747,9 @@ var translations = {
     "home.how.3": "Підготуємо ціну.",
     "home.how.4": "Домовимось про термін і беремось до роботи.",
     "home.areas.title": "Де працюємо?",
+    "home.suppliers.title": "Постачальники",
     "home.areas":
-      "Петржалка, Ружинов, Нове Місто, Старе Місто, Карлова Вес, Дубравка, Ламач, Рача, Вракуня і околиці, Пезінок, Сенець, Малацки.",
+      "Петржалка, Ружинов, Нове Місто, Старе Місто, Карлова Вес, Дубравка, Ламач, Рача, Вракуня і околиці, Пезінок, Сенець, Малацки. Інде теж, якщо домовимось.",
 
     "jadro.title": "Сантехнічні ядра в братиславських панельках",
     "jadro.lede":
@@ -756,7 +757,7 @@ var translations = {
     "jadro.p1":
       "Більшість тижнів ми в Петржалці, Ружинові чи Дубравці. Ядра схожі, стояки лишаються на місці, і все зрушити не вийде.",
     "jadro.p2":
-      "Звичайне замовлення триває дванадцять-чотирнадцять днів. У квартирі можна спати, але ванни і туалету той час немає.",
+      "Звичайне замовлення триває один-два тижні. У квартирі можна спати, але ванни і туалету той час немає.",
     "jadro.p3":
       "Управитель про це зазвичай хоче знати. Можемо з ним поговорити. Якщо йдеться про стояк або несучу стіну, скажемо раніше, ніж хтось візьме молоток.",
     "jadro.in.title": "Що в ціні",
@@ -771,7 +772,7 @@ var translations = {
       "Звичайне панельне ядро часто коштує від 6 500 до 12 000 €, залежно від розміру і комплектації.",
     "jadro.q2": "Скільки це триває?",
     "jadro.a2":
-      "12–14 днів. Складні випадки можуть тривати довше.",
+      "Один-два тижні. Складні випадки можуть тривати довше.",
     "jadro.q3": "Потрібна згода управителя?",
     "jadro.a3":
       "Для ядра зазвичай потрібне хоча б повідомлення. В інших випадках потрібна письмова угода.",
@@ -786,10 +787,10 @@ var translations = {
     "kupelna.faq.title": "Питання",
     "kupelna.q1": "Скільки коштує ванна в Братиславі?",
     "kupelna.a1":
-      "Реконструкція ванної часто коштує від 5 000 до 10 000 €, залежно від розміру і комплектації.",
+      "Реконструкція ванної часто коштує від 5 000 до 15 000 €, залежно від розміру і комплектації.",
     "kupelna.q2": "Скільки це триває?",
     "kupelna.a2":
-      "8–12 днів, якщо лише ванна. Разом із ядром 12–14 днів.",
+      "Один-два тижні.",
     "kupelna.q3": "Душ чи ванна?",
     "kupelna.a3":
       "Залежить від того, чого хоче власник, від вільного місця і від того, де стоять труби.",
@@ -807,31 +808,28 @@ var translations = {
       "Так, зберемо і поставимо. Гарнітур на замовлення не виготовляємо. Якщо він зі студії або з магазину, складемо його.",
     "kuchyna.q2": "Скільки це коштує?",
     "kuchyna.a2":
-      "Підготовка кухні виходить на 7 000 до 15 000 €. Додається, якщо зносимо стіни. Монтаж гарнітура оцінимо, коли знатимемо, який він.",
+      "Кожна кухня інша. Напишіть нам, ціну скажемо після огляду.",
     "kuchyna.q3": "Скільки це триває?",
     "kuchyna.a3":
-      "Будівельна робота триває тиждень або два. Якщо гарнітур уже є, ставимо його в той самий термін. Окремого монтажника на кухню не треба.",
+      "Будівельна робота триває тиждень. Якщо гарнітур уже є, ставимо його в той самий термін. Окремого монтажника на кухню не треба.",
 
     "fasada.title": "Фасади та ремонт штукатурки",
     "fasada.lede":
-      "Штукатурка, ремонт, утеплення меншої площі. Будинок або частина багатоквартирного. Ми не бригада на утеплення цілої панельки.",
+      "Штукатурка, ремонт і утеплення. Будинок і ціла панелька.",
     "fasada.p1":
       "Здебільшого сімейний будинок за містом, або одна стіна чи лоджія на багатоквартирному. Риштування чи підйомник у ціні, коли треба. Колір і фактуру узгоджуємо заздалегідь.",
     "fasada.p2":
-      "У багатоквартирному про це зазвичай хоче знати управитель. Якщо йдеться про цілу стіну будинку, скажемо, чи це ще наша робота, чи потрібна більша фірма.",
+      "У багатоквартирному про це зазвичай хоче знати управитель. Цілу стіну будинку теж утеплюємо.",
     "fasada.in.title": "Що в ціні",
     "fasada.in":
       "Очищення, ремонт штукатурки, узгоджений колір, утеплення меншої площі, риштування коли треба, вивіз сміття.",
-    "fasada.out.title": "Чого в ціні немає",
-    "fasada.out":
-      "Утеплення цілої панельки, алюмінієве облицювання, проєкт для установи. Це оцінимо окремо, або це не наше замовлення.",
     "fasada.faq.title": "Питання",
     "fasada.q1": "Скільки коштує фасад?",
     "fasada.a1":
-      "Менша площа на будинку починається від кількох тисяч. Цілу панельку не утеплюємо.",
+      "Менша площа на будинку починається від кількох тисяч. Цілу панельку оцінюємо окремо.",
     "fasada.q2": "Робите утеплення цілої панельки?",
     "fasada.a2":
-      "Ні. Робимо будинок, одну стіну, лоджію чи ремонт. Цілу панельку бере більша фірма.",
+      "Так. Утеплюємо і цілу панельку, і будинок, одну стіну, лоджію чи ремонт.",
     "fasada.q3": "Риштування в ціні?",
     "fasada.a3":
       "Якщо треба, так. Підйомник теж. Скажемо в пропозиції, не як сюрприз на подвір’ї.",
@@ -842,20 +840,20 @@ var translations = {
     "balkon.p1":
       "Спочатку стік і гідроізоляція. Потім плитка чи інший узгоджений шар. Огорожа, якщо прогнила або її треба замінити.",
     "balkon.p2":
-      "У квартирі можна жити. У багатоквартирному управитель зазвичай хоче повідомлення. Засклення й алюміній не є звичайною позицією. Ціну на них додамо, коли побачимо балкон.",
+      "У квартирі можна жити. У багатоквартирному управитель зазвичай хоче повідомлення. Засклення теж робимо. Ціну на нього додамо, коли побачимо балкон.",
     "balkon.in.title": "Що в ціні",
     "balkon.in":
       "Зняття старого шару, гідроізоляція, ухил, плитка, огорожа за домовленістю, вивіз.",
     "balkon.out.title": "Чого в ціні немає",
     "balkon.out":
-      "Засклення, зимовий сад, несуча конструкція, якщо балкон ось-ось відвалиться. Це інше замовлення.",
+      "Зимовий сад і несуча конструкція, якщо балкон ось-ось відвалиться. Це інше замовлення.",
     "balkon.faq.title": "Питання",
     "balkon.q1": "Скільки коштує реконструкція балкона?",
     "balkon.a1":
-      "Панельний балкон виходить на 3 000 до 6 000 €. Огорожа суму змінює. Засклення окремо.",
+      "Панельний балкон виходить на 1 000 до 6 000 €. Огорожа суму змінює. Засклення окремо.",
     "balkon.q2": "Робите також засклення?",
     "balkon.a2":
-      "Не як звичайна позиція. Якщо хочете, додамо це до замовлення або відправимо до фірми, яка склить балкони.",
+      "Так. Засклимо разом із балконом. Ціну на засклення додамо зверху.",
     "balkon.q3": "Скільки це триває?",
     "balkon.a3":
       "Чотири-вісім днів, якщо гідроізоляція сохне як треба. Дощ це подовжить.",
@@ -887,7 +885,7 @@ var translations = {
       "У панельці стояк не зрушиш лише тому, що так зручніше. Скажемо це на огляді, а не пізніше в ціні.",
     "about.areas.title": "Куди їздимо",
     "about.areas":
-      "Усі п’ять братиславських округів і звичні села довкола міста, коли йдеться про будинок.",
+      "Усі п’ять братиславських округів і звичні села довкола міста, коли йдеться про будинок. Інде теж, якщо домовимось.",
     "contact.title": "Приїдемо подивитися",
     "contact.intro":
       "Якщо хочете огляд, напишіть або зателефонуйте.",
@@ -910,7 +908,7 @@ var translations = {
       "Короткий опис будівлі і обсягу робіт.",
     "contact.submit": "Надіслати",
     "contact.note":
-      "Після кнопки відкриється ваша пошта. Не забудьте надіслати повідомлення.",
+      "Повідомлення йде прямо на нашу пошту.",
     "contact.noemail":
       "Пошти на сайті ще немає. Зателефонуйте або напишіть у WhatsApp, якщо номер уже є.",
     "contact.other.title": "Або просто зателефонуйте",
@@ -925,7 +923,8 @@ var translations = {
     "contact.err.email": "Це не схоже на електронну пошту.",
     "contact.err.phone": "Словацький номер, +421 або 09.",
     "contact.err.message": "Ще речення, хоча б одне.",
-    "contact.ok.sent": "Відкриваємо пошту. Якщо нічого не сталося, напишіть на адресу нижче.",
+    "contact.ok.sent": "Повідомлення надіслано. Ми відповімо.",
+    "contact.err.send": "Не вдалося надіслати. Зателефонуйте або спробуйте ще раз.",
     "contact.mail.subject": "Запит із сайту від {name}",
     "contact.mail.name": "Ім’я",
     "contact.mail.email": "Пошта",
@@ -937,7 +936,7 @@ var translations = {
 
     "privacy.title": "Захист даних",
     "privacy.p1":
-      "Цей сайт не використовує аналітичні cookies. Якщо напишете повідомлення, VGV-stav s.r.o. використає ім’я, пошту і текст лише для відповіді і для оцінки замовлення.",
+      "Цей сайт не використовує аналітичні cookies. Якщо напишете повідомлення, VGV-stav s.r.o. використає ім’я, пошту і текст лише для відповіді і для оцінки замовлення. Форму доставляє електронною поштою сервіс FormSubmit.",
     "privacy.p2":
       "Дані не продаємо. Тримаємо їх, поки триває запит або замовлення, потім видаляємо.",
     "privacy.p3":
@@ -952,7 +951,7 @@ var translations = {
     "estimate.project.kitchen": "Кухня",
     "estimate.project.kitchen.hint": "Без кухонного гарнітура",
     "estimate.project.fasada": "Фасад",
-    "estimate.project.fasada.hint": "Штукатурка або менше утеплення",
+    "estimate.project.fasada.hint": "Штукатурка або утеплення",
     "estimate.project.balkon": "Балкон",
     "estimate.project.balkon.hint": "Гідроізоляція, плитка, огорожа, скління",
     "estimate.project.bathroom": "Ванна",
@@ -986,6 +985,7 @@ var translations = {
     "estimate.result.label": "Орієнтовна ціна",
     "estimate.result.disclaimer":
       "Кінцева ціна може відрізнятися.",
+    "estimate.custom.fasada": "Цілу панельку оцінимо після огляду.",
     "estimate.cta.contact": "Хочу дізнатися більше",
     "estimate.contact.message":
       "Скористав(лась) калькулятором на сайті.\n\nЗамовлення: {project}\nБудівля: {property}\nПлоща: {area} м²\nРівень: {quality}\nДодатково: {extras}\nДіапазон: {low} – {high}\n\nНапишіть, будь ласка, щодо огляду."
@@ -1379,6 +1379,8 @@ var ESTIMATE_CONFIG = {
     jadro: {
       rate: 1600,
       minCost: 6500,
+      priceLow: 6500,
+      priceHigh: 12000,
       areaMin: 3,
       areaMax: 12,
       areaDefault: 5,
@@ -1395,6 +1397,8 @@ var ESTIMATE_CONFIG = {
     bathroom: {
       rate: 1400,
       minCost: 5000,
+      priceLow: 5000,
+      priceHigh: 15000,
       areaMin: 3,
       areaMax: 12,
       areaDefault: 5,
@@ -1403,14 +1407,17 @@ var ESTIMATE_CONFIG = {
     fasada: {
       rate: 180,
       minCost: 4500,
+      quoteAbove: 200,
       areaMin: 20,
-      areaMax: 200,
+      areaMax: 1000,
       areaDefault: 40,
       contactValue: "Facade"
     },
     balkon: {
-      rate: 950,
-      minCost: 3500,
+      rate: 640,
+      minCost: 1000,
+      priceLow: 1000,
+      priceHigh: 6000,
       areaMin: 2,
       areaMax: 12,
       areaDefault: 4,
@@ -1493,13 +1500,24 @@ function computeEstimate(state) {
     ESTIMATE_CONFIG.quality[state.quality] *
     ESTIMATE_CONFIG.property[state.property] *
     extras;
+  if (proj.quoteAbove && state.area > proj.quoteAbove) return { custom: true };
+
   if (mid < proj.minCost) mid = proj.minCost;
 
-  return {
-    mid: mid,
-    low: roundToHundred(mid * ESTIMATE_CONFIG.lowFactor),
-    high: roundToHundred(mid * ESTIMATE_CONFIG.highFactor)
-  };
+  var lowFactor = ESTIMATE_CONFIG.lowFactor;
+  var highFactor = ESTIMATE_CONFIG.highFactor;
+  if (state.project === "kitchen" || state.project === "fasada") {
+    lowFactor *= 0.95;
+    highFactor *= 1.12;
+  }
+
+  var low = roundToHundred(mid * lowFactor);
+  var high = roundToHundred(mid * highFactor);
+  if (proj.priceLow != null && low < proj.priceLow) low = proj.priceLow;
+  if (proj.priceHigh != null && high > proj.priceHigh) high = proj.priceHigh;
+  if (low > high) low = high;
+
+  return { mid: mid, low: low, high: high };
 }
 
 function extraLabels(state, lang) {
@@ -1517,14 +1535,6 @@ function syncPropertyForProject(form) {
   var apt = form.querySelector('input[name="property"][value="apartment"]');
   var home = form.querySelector('input[name="property"][value="home"]');
   if (!apt || !home) return;
-
-  if (project === "fasada") {
-    if (!apt.disabled) lastFreeProperty = apt.checked ? "apartment" : "home";
-    home.checked = true;
-    apt.checked = false;
-    apt.disabled = true;
-    return;
-  }
 
   var wasLocked = apt.disabled;
   apt.disabled = false;
@@ -1560,8 +1570,10 @@ function buildEstimateContactHref(state, result) {
   params.set("property", state.property);
   params.set("quality", state.quality);
   params.set("area", String(state.area));
-  params.set("low", String(result.low));
-  params.set("high", String(result.high));
+  if (result && !result.custom && isFinite(result.low) && isFinite(result.high)) {
+    params.set("low", String(result.low));
+    params.set("high", String(result.high));
+  }
   var extras = [];
   if (state.layout) extras.push("layout");
   if (state.mep) extras.push("mep");
@@ -1594,8 +1606,11 @@ function refreshEstimate(lang) {
   }
 
   if (rangeEl) {
-    rangeEl.textContent =
-      formatMoney(result.low, lang) + " – " + formatMoney(result.high, lang);
+    rangeEl.textContent = result.custom
+      ? t("estimate.custom." + state.project, lang)
+      : result.low === result.high
+        ? formatMoney(result.low, lang)
+        : formatMoney(result.low, lang) + " – " + formatMoney(result.high, lang);
   }
   if (summaryEl) {
     var bits = [
@@ -1826,22 +1841,44 @@ function handleContactForm(e) {
   }
 
   var subject = t("contact.mail.subject", lang).replace("{name}", name);
-  var body =
-    t("contact.mail.name", lang) + ": " + name + "\n" +
-    t("contact.mail.email", lang) + ": " + email + "\n" +
-    t("contact.mail.phone", lang) + ": " +
-      (phone || t("contact.mail.notProvided", lang)) + "\n" +
-    t("contact.mail.project", lang) + ": " +
-      (project || t("contact.mail.notSpecified", lang)) + "\n\n" +
-    t("contact.mail.message", lang) + ":\n" + message;
+  var payload = {
+    _subject: subject,
+    _template: "table",
+    _captcha: "false",
+    _replyto: email
+  };
+  payload[t("contact.mail.name", lang)] = name;
+  payload[t("contact.mail.email", lang)] = email;
+  payload[t("contact.mail.phone", lang)] = phone || t("contact.mail.notProvided", lang);
+  payload[t("contact.mail.project", lang)] = project || t("contact.mail.notSpecified", lang);
+  payload[t("contact.mail.message", lang)] = message;
 
-  window.location.href =
-    "mailto:" + SITE.email +
-    "?subject=" + encodeURIComponent(subject) +
-    "&body=" + encodeURIComponent(body);
+  var submitBtn = form.querySelector("[type=submit]");
+  if (submitBtn) submitBtn.disabled = true;
+  msg.className = "form-msg";
+  msg.textContent = "";
 
-  msg.className = "form-msg show ok";
-  msg.textContent = t("contact.ok.sent", lang);
+  fetch("https://formsubmit.co/ajax/" + encodeURIComponent(SITE.email), {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Accept: "application/json"
+    },
+    body: JSON.stringify(payload)
+  }).then(function (res) {
+    if (!res.ok) throw new Error("send");
+    return res.json();
+  }).then(function (data) {
+    if (data && data.success === "false") throw new Error("send");
+    form.reset();
+    msg.className = "form-msg show ok";
+    msg.textContent = t("contact.ok.sent", lang);
+  }).catch(function () {
+    msg.className = "form-msg show err";
+    msg.textContent = t("contact.err.send", lang);
+  }).then(function () {
+    if (submitBtn) submitBtn.disabled = false;
+  });
 }
 
 document.addEventListener("DOMContentLoaded", function () {
