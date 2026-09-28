@@ -24,8 +24,7 @@ var SITE = {
   hoursEn: "Mon–Fri 7:30–17:00",
   hoursUk: "Пн–Пт 7:30–17:00",
 
-  // Pages URL now. Swap to https://www.yourdomain.sk when DNS is ready.
-  url: "https://alan-m-row.github.io/vgv",
+  url: "https://vgv-stav.sk",
 
   areas: [
     "Bratislava",
