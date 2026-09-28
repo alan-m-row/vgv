@@ -75,49 +75,49 @@
   <main>
     <h1 data-i18n="estimate.title">Orientačná cena</h1>
     <p class="lede" data-i18n="estimate.intro">
-      Toto nie je ponuka. Je to rozpätie, aby ste vedeli, či sa bavíme o tých istých peniazoch. Platí číslo po obhliadke.
+      Finálnu cenu sa dozviete až po obhiadke náším expertom. 
     </p>
 
     <div class="estimate-layout">
       <form id="estimate-form" class="estimate-form" autocomplete="off">
         <fieldset>
-          <legend data-i18n="estimate.project.label">Čo ideme robiť?</legend>
+          <legend data-i18n="estimate.project.label">Čo potrebujem?</legend>
           <div class="choice-grid">
             <label class="choice">
               <input type="radio" name="project" value="jadro" checked>
               <span class="choice-title" data-i18n="estimate.project.jadro">Bytové jadro</span>
-              <span class="choice-hint" data-i18n="estimate.project.jadro.hint">Kúpeľňa + WC v paneláku</span>
+              <span class="choice-hint" data-i18n="estimate.project.jadro.hint">Kúpeľňa + WC</span>
             </label>
             <label class="choice">
               <input type="radio" name="project" value="bathroom">
               <span class="choice-title" data-i18n="estimate.project.bathroom">Kúpeľňa</span>
-              <span class="choice-hint" data-i18n="estimate.project.bathroom.hint">Len kúpeľňa</span>
+              <span class="choice-hint" data-i18n="estimate.project.bathroom.hint">Obklady, dlažby</span>
             </label>
             <label class="choice">
               <input type="radio" name="project" value="kitchen">
               <span class="choice-title" data-i18n="estimate.project.kitchen">Kuchyňa</span>
-              <span class="choice-hint" data-i18n="estimate.project.kitchen.hint">Miestnosť, nie linka</span>
+              <span class="choice-hint" data-i18n="estimate.project.kitchen.hint">Okrem kuchynskej linky</span>
             </label>
             <label class="choice">
               <input type="radio" name="project" value="fasada">
               <span class="choice-title" data-i18n="estimate.project.fasada">Fasáda</span>
-              <span class="choice-hint" data-i18n="estimate.project.fasada.hint">Omietka, menšie zateplenie</span>
+              <span class="choice-hint" data-i18n="estimate.project.fasada.hint">Omietky alebo menšie zateplenia</span>
             </label>
             <label class="choice">
               <input type="radio" name="project" value="balkon">
               <span class="choice-title" data-i18n="estimate.project.balkon">Balkón</span>
-              <span class="choice-hint" data-i18n="estimate.project.balkon.hint">Hydroizolácia, dlažba, zábradlie</span>
+              <span class="choice-hint" data-i18n="estimate.project.balkon.hint">Hydroizolácia, dlažba, zábradlie, zasklenie</span>
             </label>
             <label class="choice">
               <input type="radio" name="project" value="full">
               <span class="choice-title" data-i18n="estimate.project.full">Celý byt / dom</span>
-              <span class="choice-hint" data-i18n="estimate.project.full.hint">Väčšina plochy bytu alebo domu</span>
+              <span class="choice-hint" data-i18n="estimate.project.full.hint">Rozsiahla prerábka bytu alebo domu</span>
             </label>
           </div>
         </fieldset>
 
         <fieldset>
-          <legend data-i18n="estimate.property.label">Aký je to byt / dom?</legend>
+          <legend data-i18n="estimate.property.label">Mám</legend>
           <div class="choice-grid" id="property-choices">
             <label class="choice">
               <input type="radio" name="property" value="apartment" checked>
@@ -132,7 +132,7 @@
 
         <fieldset>
           <legend data-i18n="estimate.area.label">Plocha</legend>
-          <p class="field-hint" id="area-hint">Jadro — kúpeľňa a WC spolu, nie celý byt.</p>
+          <p class="field-hint" id="area-hint">Jadro — kúpeľňa a WC spolu.</p>
           <div class="area-row">
             <input type="range" id="area" name="area-slider" min="3" max="12" value="5" step="1">
             <div class="area-input">
@@ -147,51 +147,51 @@
           <div class="choice-grid choice-grid-3">
             <label class="choice">
               <input type="radio" name="quality" value="standard">
-              <span class="choice-title" data-i18n="estimate.quality.standard">Jednoduchá</span>
-              <span class="choice-hint" data-i18n="estimate.quality.standard.hint">Slušné, nič extra</span>
+              <span class="choice-title" data-i18n="estimate.quality.standard">Základná</span>
+              <span class="choice-hint" data-i18n="estimate.quality.standard.hint">Úplný základ</span>
             </label>
             <label class="choice">
               <input type="radio" name="quality" value="comfort" checked>
               <span class="choice-title" data-i18n="estimate.quality.comfort">Stredná</span>
-              <span class="choice-hint" data-i18n="estimate.quality.comfort.hint">Čo berie väčšina</span>
+              <span class="choice-hint" data-i18n="estimate.quality.comfort.hint">Najobľúbenejšie</span>
             </label>
             <label class="choice">
               <input type="radio" name="quality" value="premium">
               <span class="choice-title" data-i18n="estimate.quality.premium">Vyššia</span>
-              <span class="choice-hint" data-i18n="estimate.quality.premium.hint">Lepší obklad, lepšie batérie</span>
+              <span class="choice-hint" data-i18n="estimate.quality.premium.hint">Kvalitnejšie materiály</span>
             </label>
           </div>
         </fieldset>
 
         <fieldset>
-          <legend data-i18n="estimate.extras.label">Platí ešte niečo?</legend>
+          <legend data-i18n="estimate.extras.label">Ďalšie informácie</legend>
           <div class="extra-list">
             <label class="extra">
               <input type="checkbox" id="extra-layout" name="extra-layout" value="layout">
-              <span data-i18n="estimate.extras.layout">Posúvame steny</span>
+              <span data-i18n="estimate.extras.layout">Zmena rozpoloženia</span>
             </label>
             <label class="extra">
               <input type="checkbox" id="extra-mep" name="extra-mep" value="mep">
-              <span data-i18n="estimate.extras.mep">Nové rozvody aj mimo miestnosti</span>
+              <span data-i18n="estimate.extras.mep">Nové rozvody</span>
             </label>
             <label class="extra">
               <input type="checkbox" id="extra-old" name="extra-old" value="old" checked>
-              <span data-i18n="estimate.extras.old">Stavba pred rokom 1990</span>
+              <span data-i18n="estimate.extras.old">Posledná rekonštrukcia pred 15 rokmi?</span>
             </label>
           </div>
         </fieldset>
       </form>
 
       <aside class="estimate-result" aria-live="polite">
-        <p class="estimate-label" data-i18n="estimate.result.label">Orientačné rozpätie</p>
-        <p class="estimate-range" id="estimate-range">—</p>
+        <p class="estimate-label" data-i18n="estimate.result.label">Orientačná cena</p>
+        <p class="estimate-range" id="estimate-range">…</p>
         <p class="estimate-summary" id="estimate-summary"></p>
         <p class="estimate-disclaimer" data-i18n="estimate.result.disclaimer">
-          Rozpätie, nie zmluva. Stupačky, skryté rúry a to, čo si vyberiete v predajni, ho posunú. Potvrdíme, keď budeme stáť v izbe.
+          Výsledná cena sa môže líšiť!
         </p>
         <div class="estimate-actions">
-          <a class="btn" id="estimate-contact" href="kontakt.html" data-i18n="estimate.cta.contact">Chcem reálnu ponuku</a>
-          <a class="btn btn-secondary" data-site="phone" data-i18n="cta.call" hidden>Zavolať</a>
+          <a class="btn" id="estimate-contact" href="kontakt.html" data-i18n="estimate.cta.contact">Chcem vedieť viac</a>
+          <a class="btn btn-secondary" data-site="phone" data-i18n="cta.call" hidden>Zavolaje nám</a>
         </div>
       </aside>
     </div>
@@ -224,7 +224,7 @@
     </div>
   </footer>
   <div class="sticky-cta">
-    <a class="btn" data-site="phone" data-needs-phone data-i18n="cta.call" hidden>Zavolať</a>
+    <a class="btn" data-site="phone" data-needs-phone data-i18n="cta.call" hidden>Zavolaje nám</a>
     <a class="btn" href="kontakt.html" data-fallback-write data-i18n="cta.write">Napísať</a>
     <a class="btn btn-secondary" href="kontakt.html" data-i18n="cta.visit">Obhliadka zdarma</a>
   </div>
