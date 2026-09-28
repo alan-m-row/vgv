@@ -11,7 +11,7 @@ var SITE = {
   phone: "+421918095955",
   phoneDisplay: "+421 918 095 955",
   whatsapp: "+421918095955",
-  email: "test@gmail.com",
+  email: "vgvstav1@gmail.com",
 
   address: "Teslova 11, 821 04 Bratislava – Ružinov",
   city: "Bratislava a okolie",

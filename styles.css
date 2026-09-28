@@ -903,6 +903,34 @@ form .btn {
   border: 0;
 }
 
+.suppliers {
+  margin-top: 56px;
+}
+
+.supplier-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 22px 36px;
+  list-style: none;
+  margin: 16px 0 0;
+  padding: 0;
+}
+
+.supplier-row a {
+  display: flex;
+  align-items: center;
+  height: 48px;
+}
+
+.supplier-row img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-height: 42px;
+  max-width: 148px;
+}
+
 /* Footer */
 footer {
   background: var(--panel);
